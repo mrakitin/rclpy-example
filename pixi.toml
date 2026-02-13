@@ -2,10 +2,12 @@
 authors = ["Max Rakitin <mrakitin@bnl.gov>"]
 channels = ["conda-forge", "robostack-staging"]
 name = "rclpy"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
+topic-list = "ros2 topic list"
+node-list = "ros2 node list"
 
 [dependencies]
 ipython = ">=9.9.0,<10"
