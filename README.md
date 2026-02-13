@@ -5,6 +5,8 @@ Docs: https://github.com/bondada-a/erobs/blob/humble-experimental/docs/Container
 
 # Env vars
 
+NOTE: This is optional, was not needed when we were testing on Linux.
+
 ```bash
 export ROS_DOMAIN_ID=0
 ```
