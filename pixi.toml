@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Max Rakitin <mrakitin@bnl.gov>"]
+channels = ["conda-forge", "robostack-staging"]
+name = "rclpy"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ipython = ">=9.9.0,<10"
+ros-humble-rclpy = ">=3.3.16,<4"
+ros-humble-ros2cli = ">=0.18.12,<0.19"
+ros-humble-ros2topic = ">=0.18.12,<0.19"
+ros-humble-ros2action = ">=0.18.12,<0.19"
+ros-humble-ros2node = ">=0.18.12,<0.19"
+ros-humble-turtlesim = ">=1.4.2,<2"

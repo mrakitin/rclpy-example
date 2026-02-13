@@ -1,0 +1,3554 @@
+version: 6
+environments:
+  default:
+    channels:
+    - url: https://conda.anaconda.org/conda-forge/
+    - url: https://conda.anaconda.org/robostack-staging/
+    options:
+      pypi-prerelease-mode: if-necessary-or-explicit
+    packages:
+      osx-arm64:
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/_openmp_mutex-4.5-7_kmp_llvm.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/argcomplete-3.6.3-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/asttokens-3.0.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_8.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/c-ares-1.34.6-hc919400_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-hbd8a1cb_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/cairo-1.18.4-he0f2337_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/catkin_pkg-1.1.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/cmake-4.2.3-h8cb302d_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.6-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/cyrus-sasl-2.1.28-ha1cbb27_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/decorator-5.2.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/docutils-0.22.4-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/empy-3.3.4-pyh9f0ad1d_1.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.3.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/executing-2.2.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/fmt-11.2.0-h440487c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-inconsolata-3.000-h77eed37_0.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-source-code-pro-2.038-h77eed37_0.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-ubuntu-0.83-h77eed37_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/fontconfig-2.15.0-h1383a14_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/fonts-conda-ecosystem-1-0.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/fonts-conda-forge-1-hc364b38_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/foonathan-memory-0.7.3-h286801f_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/freetype-2.14.1-hce30654_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/fribidi-1.0.16-hc919400_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/glib-2.86.3-h903c028_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/glib-tools-2.86.3-h60c1bae_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/gmock-1.17.0-hce30654_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/graphite2-1.3.14-hec049ff_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/gst-plugins-base-1.26.10-hd17a83a_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/gstreamer-1.26.10-h30d696d_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/gtest-1.17.0-ha393de7_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/harfbuzz-12.3.2-h3103d1b_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-h38cb7af_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/importlib-metadata-8.7.0-pyhe01879c_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/importlib_resources-6.5.2-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/iniconfig-2.3.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ipython-9.10.0-pyh53cf698_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ipython_pygments_lexers-1.1.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/jedi-0.19.2-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/krb5-1.21.3-h237132a_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/lark-parser-0.12.0-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libblas-3.11.0-5_h51639a9_openblas.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcblas-3.11.0-5_hb0561ab_openblas.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libclang-cpp18.1-18.1.8-default_h73dfc95_17.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libclang13-21.1.8-default_h13b06bd_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcurl-8.18.0-he38603e_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-21.1.8-h55c6f16_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libedit-3.1.20250104-pl5321hafb1f1b_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libev-4.33-h93a5062_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libexpat-2.7.3-haf25636_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libffi-3.5.2-hcf2aa1b_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libfreetype-2.14.1-hce30654_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libfreetype6-2.14.1-h6da58f4_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgcc-15.2.0-hcbb3090_17.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-15.2.0-h07b0088_17.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-15.2.0-hdae7583_17.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libglib-2.86.3-he378b5c_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libiconv-1.18-h23cfdf5_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libintl-0.25.1-h493aca8_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libintl-devel-0.25.1-h493aca8_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libjpeg-turbo-3.1.2-hc919400_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/liblapack-3.11.0-5_hd9741b5_openblas.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libllvm18-18.1.8-default_h3f38c9c_11.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libllvm21-21.1.8-h8e0c9ce_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/liblzma-5.8.2-h8088a28_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libnghttp2-1.67.0-hc438710_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libntlm-1.8-h5505292_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libogg-1.3.5-h48c0fde_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libopenblas-0.3.30-openmp_ha158390_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libopus-1.6.1-h1a92334_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libpng-1.6.55-h132b30e_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libpq-18.2-h6caddbb_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libsqlite-3.51.2-h1ae2325_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libssh2-1.11.1-h1590b86_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libuv-1.51.0-h6caf38d_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libvorbis-1.3.7-h81086ad_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libxcb-1.17.0-hdb1d25a_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libxml2-16-2.15.1-h5ef1a60_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libxml2-2.15.1-h8d039ee_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-21.1.8-h4a912ad_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/matplotlib-inline-0.2.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/netifaces-0.11.0-py311h3696347_4.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/nspr-4.38-heaf21c2_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/nss-3.118-h1c710a3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/numpy-1.26.4-py311h7125741_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openldap-2.6.10-hbe55e7a_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.6.1-hd24854e_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/packaging-26.0-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pango-1.56.4-h875632e_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/parso-0.8.6-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pcre2-10.47-h30297fc_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pexpect-4.9.0-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pixman-0.46.4-h81086ad_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pluggy-1.6.0-pyhf9edf01_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.52-pyha770c72_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pthread-stubs-0.4-hd74edd7_1002.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/ptyprocess-0.7.0-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pure_eval-0.2.3-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.2-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.3.2-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.0.2-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.11.14-h18782d2_3_cpython.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.11-8_cp311.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pyyaml-6.0.3-py311hc290fe0_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/qt-main-5.15.15-h4427410_7.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/readline-8.3-h46df422_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/rhash-1.4.6-h5505292_1.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-action-msgs-1.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-core-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-definitions-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-dependencies-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-include-directories-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-interfaces-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-libraries-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-link-flags-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-targets-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-gen-version-h-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-gmock-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-gtest-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-include-directories-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-libraries-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-pytest-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-python-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-ros-0.10.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-target-dependencies-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-test-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-version-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-index-cpp-1.4.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-index-python-1.4.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-package-0.14.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-builtin-interfaces-1.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-cyclonedds-0.10.5-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-domain-coordinator-0.10.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastcdr-1.0.24-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastrtps-2.6.10-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastrtps-cmake-module-2.2.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-foonathan-memory-vendor-1.2.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-geometry-msgs-4.9.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-gmock-vendor-1.10.9006-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-gtest-vendor-1.10.9006-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-iceoryx-binding-c-2.0.5-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-iceoryx-hoofs-2.0.5-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-iceoryx-posh-2.0.5-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-libstatistics-collector-1.3.4-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-libyaml-vendor-1.2.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-lifecycle-msgs-1.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-python-cmake-module-0.10.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-5.3.9-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-action-5.3.9-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-interfaces-1.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-lifecycle-5.3.9-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-logging-interface-2.3.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-logging-spdlog-2.3.1-np126py311h6932ae0_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-yaml-param-parser-5.3.9-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rclcpp-16.0.13-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rclcpp-action-16.0.13-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rclpy-3.3.16-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcpputils-2.4.5-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcutils-5.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-6.1.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-connextdds-0.11.3-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-connextdds-common-0.11.3-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-cyclonedds-cpp-1.3.4-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-dds-common-1.6.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-fastrtps-cpp-6.2.7-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-fastrtps-dynamic-cpp-6.2.7-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-fastrtps-shared-cpp-6.2.7-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-implementation-2.8.4-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-implementation-cmake-6.1.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros-workspace-1.0.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2action-0.18.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2cli-0.18.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2node-0.18.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2topic-0.18.12-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosgraph-msgs-1.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-adapter-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-cli-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-cmake-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-default-runtime-1.2.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-generator-c-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-generator-cpp-3.1.6-np126py311h2a51a2c_14.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-generator-py-0.14.4-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-parser-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-runtime-c-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-runtime-cpp-3.1.6-np126py311h2a51a2c_14.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-runtime-py-0.9.3-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-c-2.0.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-cpp-2.0.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-fastrtps-c-2.2.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-fastrtps-cpp-2.2.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-interface-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-introspection-c-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-introspection-cpp-3.1.6-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rpyutils-0.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rti-connext-dds-cmake-module-0.11.3-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-spdlog-vendor-1.3.1-np126py311h6932ae0_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-statistics-msgs-1.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-std-msgs-4.9.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-std-srvs-4.9.0-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-tracetools-4.1.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-turtlesim-1.4.2-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-unique-identifier-msgs-2.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros2-distro-mutex-0.7.0-humble_13.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-82.0.0-pyh332efcf_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/six-1.17.0-pyhe01879c_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/spdlog-1.15.3-h217a1f9_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/tinyxml2-11.0.0-ha1acc90_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/tk-8.6.13-h010d191_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/tomli-2.4.0-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/traitlets-5.14.3-pyhd8ed1ab_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/wcwidth-0.6.0-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libx11-1.8.13-hf948f5a_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxau-1.0.12-hc919400_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxdmcp-1.1.5-hc919400_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxext-1.3.7-h84a0fba_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/yaml-0.2.5-h925e9cb_3.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/yaml-cpp-0.8.0-ha1acc90_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhcf101f3_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
+packages:
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/_openmp_mutex-4.5-7_kmp_llvm.conda
+  build_number: 7
+  sha256: 7acaa2e0782cad032bdaf756b536874346ac1375745fb250e9bdd6a48a7ab3cd
+  md5: a44032f282e7d2acdeb1c240308052dd
+  depends:
+  - llvm-openmp >=9.0.1
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 8325
+  timestamp: 1764092507920
+- conda: https://conda.anaconda.org/conda-forge/noarch/argcomplete-3.6.3-pyhd8ed1ab_0.conda
+  sha256: a2a1879c53b7a8438c898d20fa5f6274e4b1c30161f93b7818236e9df6adffde
+  md5: 8f37c8fb7116a18da04e52fa9e2c8df9
+  depends:
+  - python >=3.10
+  license: Apache-2.0
+  license_family: Apache
+  size: 42386
+  timestamp: 1760975036972
+- conda: https://conda.anaconda.org/conda-forge/noarch/asttokens-3.0.1-pyhd8ed1ab_0.conda
+  sha256: ee4da0f3fe9d59439798ee399ef3e482791e48784873d546e706d0935f9ff010
+  md5: 9673a61a297b00016442e022d689faa6
+  depends:
+  - python >=3.10
+  constrains:
+  - astroid >=2,<5
+  license: Apache-2.0
+  license_family: Apache
+  size: 28797
+  timestamp: 1763410017955
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/bzip2-1.0.8-hd037594_8.conda
+  sha256: b456200636bd5fecb2bec63f7e0985ad2097cf1b83d60ce0b6968dffa6d02aa1
+  md5: 58fd217444c2a5701a44244faf518206
+  depends:
+  - __osx >=11.0
+  license: bzip2-1.0.6
+  license_family: BSD
+  size: 125061
+  timestamp: 1757437486465
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/c-ares-1.34.6-hc919400_0.conda
+  sha256: 2995f2aed4e53725e5efbc28199b46bf311c3cab2648fc4f10c2227d6d5fa196
+  md5: bcb3cba70cf1eec964a03b4ba7775f01
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 180327
+  timestamp: 1765215064054
+- conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.1.4-hbd8a1cb_0.conda
+  sha256: b5974ec9b50e3c514a382335efa81ed02b05906849827a34061c496f4defa0b2
+  md5: bddacf101bb4dd0e51811cb69c7790e2
+  depends:
+  - __unix
+  license: ISC
+  size: 146519
+  timestamp: 1767500828366
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/cairo-1.18.4-he0f2337_1.conda
+  sha256: cde9b79ee206fe3ba6ca2dc5906593fb7a1350515f85b2a1135a4ce8ec1539e3
+  md5: 36200ecfbbfbcb82063c87725434161f
+  depends:
+  - __osx >=11.0
+  - fontconfig >=2.15.0,<3.0a0
+  - fonts-conda-ecosystem
+  - icu >=78.1,<79.0a0
+  - libcxx >=19
+  - libexpat >=2.7.3,<3.0a0
+  - libfreetype >=2.14.1
+  - libfreetype6 >=2.14.1
+  - libglib >=2.86.3,<3.0a0
+  - libpng >=1.6.53,<1.7.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - pixman >=0.46.4,<1.0a0
+  license: LGPL-2.1-only or MPL-1.1
+  size: 900035
+  timestamp: 1766416416791
+- conda: https://conda.anaconda.org/conda-forge/noarch/catkin_pkg-1.1.0-pyhd8ed1ab_0.conda
+  sha256: fe602164dc1920551e1452543e22338d55d8a879959f12598c9674cf295c6341
+  md5: 3e500faf80e42f26d422d849877d48c4
+  depends:
+  - docutils
+  - packaging
+  - pyparsing >=1.5.7
+  - python >=3.10
+  - python-dateutil
+  - setuptools
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 54106
+  timestamp: 1757558592553
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/cmake-4.2.3-h8cb302d_0.conda
+  sha256: 2c82056fe8e64f9a1a063d698339303bfe0e748ea7a98361f26764f5ad9763c7
+  md5: 2d193643af6996480fd16a8a4f3e2366
+  depends:
+  - __osx >=11.0
+  - bzip2 >=1.0.8,<2.0a0
+  - libcurl >=8.18.0,<9.0a0
+  - libcxx >=19
+  - libexpat >=2.7.3,<3.0a0
+  - liblzma >=5.8.2,<6.0a0
+  - libuv >=1.51.0,<2.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - ncurses >=6.5,<7.0a0
+  - rhash >=1.4.6,<2.0a0
+  - zstd >=1.5.7,<1.6.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 17757212
+  timestamp: 1769598999605
+- conda: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.6-pyhd8ed1ab_1.conda
+  sha256: ab29d57dc70786c1269633ba3dff20288b81664d3ff8d21af995742e2bb03287
+  md5: 962b9857ee8e7018c22f2776ffa0b2d7
+  depends:
+  - python >=3.9
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 27011
+  timestamp: 1733218222191
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/cyrus-sasl-2.1.28-ha1cbb27_0.conda
+  sha256: 7de03254fa5421e7ec2347c830a59530fb5356022ee0dc26ec1cef0be1de0911
+  md5: 2867ea6551e97e53a81787fd967162b1
+  depends:
+  - __osx >=11.0
+  - krb5 >=1.21.3,<1.22.0a0
+  - libcxx >=18
+  - libntlm >=1.8,<2.0a0
+  - openssl >=3.5.0,<4.0a0
+  license: BSD-3-Clause-Attribution
+  license_family: BSD
+  size: 193732
+  timestamp: 1750239236574
+- conda: https://conda.anaconda.org/conda-forge/noarch/decorator-5.2.1-pyhd8ed1ab_0.conda
+  sha256: c17c6b9937c08ad63cb20a26f403a3234088e57d4455600974a0ce865cb14017
+  md5: 9ce473d1d1be1cc3810856a48b3fab32
+  depends:
+  - python >=3.9
+  license: BSD-2-Clause
+  license_family: BSD
+  size: 14129
+  timestamp: 1740385067843
+- conda: https://conda.anaconda.org/conda-forge/noarch/docutils-0.22.4-pyhd8ed1ab_0.conda
+  sha256: 0d605569a77350fb681f9ed8d357cc71649b59a304099dc9d09fbeec5e84a65e
+  md5: d6bd3cd217e62bbd7efe67ff224cd667
+  depends:
+  - python >=3.10
+  license: CC-PDDC AND BSD-3-Clause AND BSD-2-Clause AND ZPL-2.1
+  size: 438002
+  timestamp: 1766092633160
+- conda: https://conda.anaconda.org/conda-forge/noarch/empy-3.3.4-pyh9f0ad1d_1.tar.bz2
+  sha256: 75e04755df8d8db7a7711dddaf68963c11258b755c9c24565bfefa493ee383e3
+  md5: e4be10fd1a907b223da5be93f06709d2
+  depends:
+  - python
+  license: LGPL-2.1
+  license_family: GPL
+  size: 40210
+  timestamp: 1586444722817
+- conda: https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.3.1-pyhd8ed1ab_0.conda
+  sha256: ee6cf346d017d954255bbcbdb424cddea4d14e4ed7e9813e429db1d795d01144
+  md5: 8e662bd460bda79b1ea39194e3c4c9ab
+  depends:
+  - python >=3.10
+  - typing_extensions >=4.6.0
+  license: MIT and PSF-2.0
+  size: 21333
+  timestamp: 1763918099466
+- conda: https://conda.anaconda.org/conda-forge/noarch/executing-2.2.1-pyhd8ed1ab_0.conda
+  sha256: 210c8165a58fdbf16e626aac93cc4c14dbd551a01d1516be5ecad795d2422cad
+  md5: ff9efb7f7469aed3c4a8106ffa29593c
+  depends:
+  - python >=3.10
+  license: MIT
+  license_family: MIT
+  size: 30753
+  timestamp: 1756729456476
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/fmt-11.2.0-h440487c_0.conda
+  sha256: 1449ec46468860f6fb77edba87797ce22d4f6bfe8d5587c46fd5374c4f7383ee
+  md5: 24109723ac700cce5ff96ea3e63a83a3
+  depends:
+  - __osx >=11.0
+  - libcxx >=18
+  license: MIT
+  license_family: MIT
+  size: 177090
+  timestamp: 1751277262419
+- conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-dejavu-sans-mono-2.37-hab24e00_0.tar.bz2
+  sha256: 58d7f40d2940dd0a8aa28651239adbf5613254df0f75789919c4e6762054403b
+  md5: 0c96522c6bdaed4b1566d11387caaf45
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 397370
+  timestamp: 1566932522327
+- conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-inconsolata-3.000-h77eed37_0.tar.bz2
+  sha256: c52a29fdac682c20d252facc50f01e7c2e7ceac52aa9817aaf0bb83f7559ec5c
+  md5: 34893075a5c9e55cdafac56607368fc6
+  license: OFL-1.1
+  license_family: Other
+  size: 96530
+  timestamp: 1620479909603
+- conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-source-code-pro-2.038-h77eed37_0.tar.bz2
+  sha256: 00925c8c055a2275614b4d983e1df637245e19058d79fc7dd1a93b8d9fb4b139
+  md5: 4d59c254e01d9cde7957100457e2d5fb
+  license: OFL-1.1
+  license_family: Other
+  size: 700814
+  timestamp: 1620479612257
+- conda: https://conda.anaconda.org/conda-forge/noarch/font-ttf-ubuntu-0.83-h77eed37_3.conda
+  sha256: 2821ec1dc454bd8b9a31d0ed22a7ce22422c0aef163c59f49dfdf915d0f0ca14
+  md5: 49023d73832ef61042f6a237cb2687e7
+  license: LicenseRef-Ubuntu-Font-Licence-Version-1.0
+  license_family: Other
+  size: 1620504
+  timestamp: 1727511233259
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/fontconfig-2.15.0-h1383a14_1.conda
+  sha256: f79d3d816fafbd6a2b0f75ebc3251a30d3294b08af9bb747194121f5efa364bc
+  md5: 7b29f48742cea5d1ccb5edd839cb5621
+  depends:
+  - __osx >=11.0
+  - freetype >=2.12.1,<3.0a0
+  - libexpat >=2.6.3,<3.0a0
+  - libzlib >=1.3.1,<2.0a0
+  license: MIT
+  license_family: MIT
+  size: 234227
+  timestamp: 1730284037572
+- conda: https://conda.anaconda.org/conda-forge/noarch/fonts-conda-ecosystem-1-0.tar.bz2
+  sha256: a997f2f1921bb9c9d76e6fa2f6b408b7fa549edd349a77639c9fe7a23ea93e61
+  md5: fee5683a3f04bd15cbd8318b096a27ab
+  depends:
+  - fonts-conda-forge
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 3667
+  timestamp: 1566974674465
+- conda: https://conda.anaconda.org/conda-forge/noarch/fonts-conda-forge-1-hc364b38_1.conda
+  sha256: 54eea8469786bc2291cc40bca5f46438d3e062a399e8f53f013b6a9f50e98333
+  md5: a7970cd949a077b7cb9696379d338681
+  depends:
+  - font-ttf-ubuntu
+  - font-ttf-inconsolata
+  - font-ttf-dejavu-sans-mono
+  - font-ttf-source-code-pro
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 4059
+  timestamp: 1762351264405
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/foonathan-memory-0.7.3-h286801f_1.conda
+  sha256: 5ca6622f451ffcbad4c248e5aa897364ee144f727317de53205f79598ae31e30
+  md5: 5edb851ff08d42a33875ad9aa54a6b40
+  depends:
+  - __osx >=11.0
+  - libcxx >=18
+  license: Zlib
+  size: 196029
+  timestamp: 1746246781766
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/freetype-2.14.1-hce30654_0.conda
+  sha256: 14427aecd72e973a73d5f9dfd0e40b6bc3791d253de09b7bf233f6a9a190fd17
+  md5: 1ec9a1ee7a2c9339774ad9bb6fe6caec
+  depends:
+  - libfreetype 2.14.1 hce30654_0
+  - libfreetype6 2.14.1 h6da58f4_0
+  license: GPL-2.0-only OR FTL
+  size: 173399
+  timestamp: 1757947175403
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/fribidi-1.0.16-hc919400_0.conda
+  sha256: d856dc6744ecfba78c5f7df3378f03a75c911aadac803fa2b41a583667b4b600
+  md5: 04bdce8d93a4ed181d1d726163c2d447
+  depends:
+  - __osx >=11.0
+  license: LGPL-2.1-or-later
+  size: 59391
+  timestamp: 1757438897523
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/glib-2.86.3-h903c028_1.conda
+  sha256: 3e77123fb7e1982562dda0e9d218350b84ce29559c0794c9d6a8192cd651fc0c
+  md5: c189bcc5185b9ca6b5f31e0e50c70c16
+  depends:
+  - glib-tools 2.86.3 h60c1bae_1
+  - libglib 2.86.3 he378b5c_1
+  - libintl >=0.25.1,<1.0a0
+  - libintl-devel
+  - packaging
+  - python *
+  license: LGPL-2.1-or-later
+  size: 78516
+  timestamp: 1770930963077
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/glib-tools-2.86.3-h60c1bae_1.conda
+  sha256: a43008c2bc653134d3571b0c51840f721acba80176bf037dddc35ef0f9b0e25c
+  md5: 5d8dca6df9a8e84412950832d4015483
+  depends:
+  - __osx >=11.0
+  - libffi
+  - libglib 2.86.3 he378b5c_1
+  - libintl >=0.25.1,<1.0a0
+  license: LGPL-2.1-or-later
+  size: 182695
+  timestamp: 1770930871214
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/gmock-1.17.0-hce30654_1.conda
+  sha256: 8ffcdb59c4087268163eac6ba76eaaec8f953c569eb0b2de96d2094391104db7
+  md5: 032a8260ea052e9ed5b3cffbb6ec0831
+  depends:
+  - gtest 1.17.0 ha393de7_1
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 7681
+  timestamp: 1748320227048
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/graphite2-1.3.14-hec049ff_2.conda
+  sha256: c507ae9989dbea7024aa6feaebb16cbf271faac67ac3f0342ef1ab747c20475d
+  md5: 0fc46fee39e88bbcf5835f71a9d9a209
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  license: LGPL-2.0-or-later
+  license_family: LGPL
+  size: 81202
+  timestamp: 1755102333712
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/gst-plugins-base-1.26.10-hd17a83a_0.conda
+  sha256: 892c0d86182548a0c33a60af4c195d5b7963de4a1a26466c9fbf6024e97bf959
+  md5: da40bf8267461044b2df6e467695bdf7
+  depends:
+  - __osx >=11.0
+  - gstreamer 1.26.10 h30d696d_0
+  - libcxx >=19
+  - libexpat >=2.7.3,<3.0a0
+  - libglib >=2.86.3,<3.0a0
+  - libintl >=0.25.1,<1.0a0
+  - libogg >=1.3.5,<1.4.0a0
+  - libopus >=1.6,<2.0a0
+  - libpng >=1.6.53,<1.7.0a0
+  - libvorbis >=1.3.7,<1.4.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - pango >=1.56.4,<2.0a0
+  license: LGPL-2.0-or-later
+  license_family: LGPL
+  size: 2041012
+  timestamp: 1766700009773
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/gstreamer-1.26.10-h30d696d_0.conda
+  sha256: 84230383c9cfb0b62ec4cdc3db444095308bb4b4b1cd9b76cb64e0e0951f5324
+  md5: 9f2f36d5dc016272f358bc564198fec8
+  depends:
+  - __osx >=11.0
+  - glib >=2.86.3,<3.0a0
+  - libcxx >=19
+  - libglib >=2.86.3,<3.0a0
+  - libiconv >=1.18,<2.0a0
+  - libintl >=0.25.1,<1.0a0
+  - libzlib >=1.3.1,<2.0a0
+  license: LGPL-2.0-or-later
+  license_family: LGPL
+  size: 1375508
+  timestamp: 1766699743601
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/gtest-1.17.0-ha393de7_1.conda
+  sha256: 441fb779db5f14eff8997ddde88c90c30ab64ea8bd4c219b76724e4d3d736c76
+  md5: f277a9eb8063fe7c4e33d91b8296fb0c
+  depends:
+  - __osx >=11.0
+  - libcxx >=18
+  constrains:
+  - gmock 1.17.0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 378391
+  timestamp: 1748320218212
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/harfbuzz-12.3.2-h3103d1b_0.conda
+  sha256: f68c6704610396012124a3d86b087581174c2cf7968a46b6d95ba84cd87063c7
+  md5: d0af4858d81c0c7abddc6b71fd8c0340
+  depends:
+  - __osx >=11.0
+  - cairo >=1.18.4,<2.0a0
+  - graphite2 >=1.3.14,<2.0a0
+  - icu >=78.2,<79.0a0
+  - libcxx >=19
+  - libexpat >=2.7.3,<3.0a0
+  - libfreetype >=2.14.1
+  - libfreetype6 >=2.14.1
+  - libglib >=2.86.3,<3.0a0
+  - libzlib >=1.3.1,<2.0a0
+  license: MIT
+  license_family: MIT
+  size: 1441619
+  timestamp: 1769446246348
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/icu-78.2-h38cb7af_0.conda
+  sha256: d4cefbca587429d1192509edc52c88de52bc96c2447771ddc1f8bee928aed5ef
+  md5: 1e93aca311da0210e660d2247812fa02
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 12358010
+  timestamp: 1767970350308
+- conda: https://conda.anaconda.org/conda-forge/noarch/importlib-metadata-8.7.0-pyhe01879c_1.conda
+  sha256: c18ab120a0613ada4391b15981d86ff777b5690ca461ea7e9e49531e8f374745
+  md5: 63ccfdc3a3ce25b027b8767eb722fca8
+  depends:
+  - python >=3.9
+  - zipp >=3.20
+  - python
+  license: Apache-2.0
+  license_family: APACHE
+  size: 34641
+  timestamp: 1747934053147
+- conda: https://conda.anaconda.org/conda-forge/noarch/importlib_resources-6.5.2-pyhd8ed1ab_0.conda
+  sha256: acc1d991837c0afb67c75b77fdc72b4bf022aac71fedd8b9ea45918ac9b08a80
+  md5: c85c76dc67d75619a92f51dfbce06992
+  depends:
+  - python >=3.9
+  - zipp >=3.1.0
+  constrains:
+  - importlib-resources >=6.5.2,<6.5.3.0a0
+  license: Apache-2.0
+  license_family: APACHE
+  size: 33781
+  timestamp: 1736252433366
+- conda: https://conda.anaconda.org/conda-forge/noarch/iniconfig-2.3.0-pyhd8ed1ab_0.conda
+  sha256: e1a9e3b1c8fe62dc3932a616c284b5d8cbe3124bbfbedcf4ce5c828cb166ee19
+  md5: 9614359868482abba1bd15ce465e3c42
+  depends:
+  - python >=3.10
+  license: MIT
+  license_family: MIT
+  size: 13387
+  timestamp: 1760831448842
+- conda: https://conda.anaconda.org/conda-forge/noarch/ipython-9.10.0-pyh53cf698_0.conda
+  sha256: 12cb4db242ea1a2e5e60a51b20f16e9c8120a9eb5d013c641cbf827bf3bb78e1
+  md5: 441ca4e203a62f7db2f29f190c02b9cf
+  depends:
+  - __unix
+  - pexpect >4.3
+  - decorator >=4.3.2
+  - ipython_pygments_lexers >=1.0.0
+  - jedi >=0.18.1
+  - matplotlib-inline >=0.1.5
+  - prompt-toolkit >=3.0.41,<3.1.0
+  - pygments >=2.11.0
+  - python >=3.11
+  - stack_data >=0.6.0
+  - traitlets >=5.13.0
+  - typing_extensions >=4.6
+  - python
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 647436
+  timestamp: 1770040907512
+- conda: https://conda.anaconda.org/conda-forge/noarch/ipython_pygments_lexers-1.1.1-pyhd8ed1ab_0.conda
+  sha256: 894682a42a7d659ae12878dbcb274516a7031bbea9104e92f8e88c1f2765a104
+  md5: bd80ba060603cc228d9d81c257093119
+  depends:
+  - pygments
+  - python >=3.9
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 13993
+  timestamp: 1737123723464
+- conda: https://conda.anaconda.org/conda-forge/noarch/jedi-0.19.2-pyhd8ed1ab_1.conda
+  sha256: 92c4d217e2dc68983f724aa983cca5464dcb929c566627b26a2511159667dba8
+  md5: a4f4c5dc9b80bc50e0d3dc4e6e8f1bd9
+  depends:
+  - parso >=0.8.3,<0.9.0
+  - python >=3.9
+  license: Apache-2.0 AND MIT
+  size: 843646
+  timestamp: 1733300981994
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/krb5-1.21.3-h237132a_0.conda
+  sha256: 4442f957c3c77d69d9da3521268cad5d54c9033f1a73f99cde0a3658937b159b
+  md5: c6dc8a0fdec13a0565936655c33069a1
+  depends:
+  - __osx >=11.0
+  - libcxx >=16
+  - libedit >=3.1.20191231,<3.2.0a0
+  - libedit >=3.1.20191231,<4.0a0
+  - openssl >=3.3.1,<4.0a0
+  license: MIT
+  license_family: MIT
+  size: 1155530
+  timestamp: 1719463474401
+- conda: https://conda.anaconda.org/conda-forge/noarch/lark-parser-0.12.0-pyhd8ed1ab_1.conda
+  sha256: 7f1ad9630a87005a90099ad3ff883ac7a3fe5e85b9eb232d1f8ad0a670059cca
+  md5: 222dd97cb2d5da1638de5077da60712f
+  depends:
+  - python >=3.6
+  license: MIT
+  license_family: MIT
+  size: 86134
+  timestamp: 1725742423890
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libblas-3.11.0-5_h51639a9_openblas.conda
+  build_number: 5
+  sha256: 620a6278f194dcabc7962277da6835b1e968e46ad0c8e757736255f5ddbfca8d
+  md5: bcc025e2bbaf8a92982d20863fe1fb69
+  depends:
+  - libopenblas >=0.3.30,<0.3.31.0a0
+  - libopenblas >=0.3.30,<1.0a0
+  constrains:
+  - libcblas   3.11.0   5*_openblas
+  - liblapack  3.11.0   5*_openblas
+  - liblapacke 3.11.0   5*_openblas
+  - blas 2.305   openblas
+  - mkl <2026
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 18546
+  timestamp: 1765819094137
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcblas-3.11.0-5_hb0561ab_openblas.conda
+  build_number: 5
+  sha256: 38809c361bbd165ecf83f7f05fae9b791e1baa11e4447367f38ae1327f402fc0
+  md5: efd8bd15ca56e9d01748a3beab8404eb
+  depends:
+  - libblas 3.11.0 5_h51639a9_openblas
+  constrains:
+  - liblapacke 3.11.0   5*_openblas
+  - liblapack  3.11.0   5*_openblas
+  - blas 2.305   openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 18548
+  timestamp: 1765819108956
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libclang-cpp18.1-18.1.8-default_h73dfc95_17.conda
+  sha256: 115503fb68a76ccdbbc1af5d79d4cb741c9dbec0af911e93783f1dcb2ed078d0
+  md5: f741d4a6ae4bc92d6a18fc3c69e66f1a
+  depends:
+  - __osx >=11.0
+  - libcxx >=18.1.8
+  - libllvm18 >=18.1.8,<18.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 13334948
+  timestamp: 1768826899333
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libclang13-21.1.8-default_h13b06bd_2.conda
+  sha256: 6f351202357720bac1abf8799b81ca6ccf95c55fd9b91f0b4716326b50d4a39f
+  md5: 7722bde3393900e61db99c2eb0028248
+  depends:
+  - __osx >=11.0
+  - libcxx >=21.1.8
+  - libllvm21 >=21.1.8,<21.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 8516607
+  timestamp: 1769308964077
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcurl-8.18.0-he38603e_0.conda
+  sha256: 11c78b3e89bc332933386f0a11ac60d9200afb7a811b9e3bec98aef8d4a6389b
+  md5: 36190179a799f3aee3c2d20a8a2b970d
+  depends:
+  - __osx >=11.0
+  - krb5 >=1.21.3,<1.22.0a0
+  - libnghttp2 >=1.67.0,<2.0a0
+  - libssh2 >=1.11.1,<2.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - openssl >=3.5.4,<4.0a0
+  - zstd >=1.5.7,<1.6.0a0
+  license: curl
+  license_family: MIT
+  size: 402681
+  timestamp: 1767822693908
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-21.1.8-h55c6f16_2.conda
+  sha256: 5fbeb2fc2673f0455af6079abf93faaf27f11a92574ad51565fa1ecac9a4e2aa
+  md5: 4cb5878bdb9ebfa65b7cdff5445087c5
+  depends:
+  - __osx >=11.0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 570068
+  timestamp: 1770238262922
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libedit-3.1.20250104-pl5321hafb1f1b_0.conda
+  sha256: 66aa216a403de0bb0c1340a88d1a06adaff66bae2cfd196731aa24db9859d631
+  md5: 44083d2d2c2025afca315c7a172eab2b
+  depends:
+  - ncurses
+  - __osx >=11.0
+  - ncurses >=6.5,<7.0a0
+  license: BSD-2-Clause
+  license_family: BSD
+  size: 107691
+  timestamp: 1738479560845
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libev-4.33-h93a5062_2.conda
+  sha256: 95cecb3902fbe0399c3a7e67a5bed1db813e5ab0e22f4023a5e0f722f2cc214f
+  md5: 36d33e440c31857372a72137f78bacf5
+  license: BSD-2-Clause
+  license_family: BSD
+  size: 107458
+  timestamp: 1702146414478
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libexpat-2.7.3-haf25636_0.conda
+  sha256: fce22610ecc95e6d149e42a42fbc3cc9d9179bd4eb6232639a60f06e080eec98
+  md5: b79875dbb5b1db9a4a22a4520f918e1a
+  depends:
+  - __osx >=11.0
+  constrains:
+  - expat 2.7.3.*
+  license: MIT
+  license_family: MIT
+  size: 67800
+  timestamp: 1763549994166
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libffi-3.5.2-hcf2aa1b_0.conda
+  sha256: 6686a26466a527585e6a75cc2a242bf4a3d97d6d6c86424a441677917f28bec7
+  md5: 43c04d9cb46ef176bb2a4c77e324d599
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 40979
+  timestamp: 1769456747661
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libfreetype-2.14.1-hce30654_0.conda
+  sha256: 9de25a86066f078822d8dd95a83048d7dc2897d5d655c0e04a8a54fca13ef1ef
+  md5: f35fb38e89e2776994131fbf961fa44b
+  depends:
+  - libfreetype6 >=2.14.1
+  license: GPL-2.0-only OR FTL
+  size: 7810
+  timestamp: 1757947168537
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libfreetype6-2.14.1-h6da58f4_0.conda
+  sha256: cc4aec4c490123c0f248c1acd1aeab592afb6a44b1536734e20937cda748f7cd
+  md5: 6d4ede03e2a8e20eb51f7f681d2a2550
+  depends:
+  - __osx >=11.0
+  - libpng >=1.6.50,<1.7.0a0
+  - libzlib >=1.3.1,<2.0a0
+  constrains:
+  - freetype >=2.14.1
+  license: GPL-2.0-only OR FTL
+  size: 346703
+  timestamp: 1757947166116
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgcc-15.2.0-hcbb3090_17.conda
+  sha256: 07ba27f2ef1ce444ce5c99d0f9590772fc5b58ba73c993477bfad74b17dfaa79
+  md5: 65c07cee234440ae4d5d340fc4b2e69a
+  depends:
+  - _openmp_mutex
+  constrains:
+  - libgomp 15.2.0 17
+  - libgcc-ng ==15.2.0=*_17
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 402928
+  timestamp: 1770254186829
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-15.2.0-h07b0088_17.conda
+  sha256: 7b96f428cb932df8d7c1aa4e433ed29b779dd9571934afdf4f9093a85155a142
+  md5: 45ba22eb5381fb602a45233d89ba27ae
+  depends:
+  - libgfortran5 15.2.0 hdae7583_17
+  constrains:
+  - libgfortran-ng ==15.2.0=*_17
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 139757
+  timestamp: 1770254394473
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-15.2.0-hdae7583_17.conda
+  sha256: 9c41ff08f61c953cee13fc3df3c6245741e5a71e453b2c094a6d55b0eeda3669
+  md5: c6329d871fb3207e9657c384128f5488
+  depends:
+  - libgcc >=15.2.0
+  constrains:
+  - libgfortran 15.2.0
+  license: GPL-3.0-only WITH GCC-exception-3.1
+  license_family: GPL
+  size: 599374
+  timestamp: 1770254196706
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libglib-2.86.3-he378b5c_1.conda
+  sha256: 2919a5956e416f9ee4b75d99be32df19faa62c7e608dd95d50d143b28617809f
+  md5: a07b5ba3d9b03012f3cc4f5e94444436
+  depends:
+  - __osx >=11.0
+  - libffi >=3.5.2,<3.6.0a0
+  - libiconv >=1.18,<2.0a0
+  - libintl >=0.25.1,<1.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - pcre2 >=10.47,<10.48.0a0
+  constrains:
+  - glib 2.86.3 *_1
+  license: LGPL-2.1-or-later
+  size: 4103648
+  timestamp: 1770930765978
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libiconv-1.18-h23cfdf5_2.conda
+  sha256: de0336e800b2af9a40bdd694b03870ac4a848161b35c8a2325704f123f185f03
+  md5: 4d5a7445f0b25b6a3ddbb56e790f5251
+  depends:
+  - __osx >=11.0
+  license: LGPL-2.1-only
+  size: 750379
+  timestamp: 1754909073836
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libintl-0.25.1-h493aca8_0.conda
+  sha256: 99d2cebcd8f84961b86784451b010f5f0a795ed1c08f1e7c76fbb3c22abf021a
+  md5: 5103f6a6b210a3912faf8d7db516918c
+  depends:
+  - __osx >=11.0
+  - libiconv >=1.18,<2.0a0
+  license: LGPL-2.1-or-later
+  size: 90957
+  timestamp: 1751558394144
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libintl-devel-0.25.1-h493aca8_0.conda
+  sha256: 5a446cb0501d87e0816da0bce524c60a053a4cf23c94dfd3e2b32a8499009e36
+  md5: 5f9888e1cdbbbef52c8cf8b567393535
+  depends:
+  - __osx >=11.0
+  - libiconv >=1.18,<2.0a0
+  - libintl 0.25.1 h493aca8_0
+  license: LGPL-2.1-or-later
+  size: 40340
+  timestamp: 1751558481257
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libjpeg-turbo-3.1.2-hc919400_0.conda
+  sha256: 6c061c56058bb10374daaef50e81b39cf43e8aee21f0037022c0c39c4f31872f
+  md5: f0695fbecf1006f27f4395d64bd0c4b8
+  depends:
+  - __osx >=11.0
+  constrains:
+  - jpeg <0.0.0a
+  license: IJG AND BSD-3-Clause AND Zlib
+  size: 551197
+  timestamp: 1762095054358
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/liblapack-3.11.0-5_hd9741b5_openblas.conda
+  build_number: 5
+  sha256: 735a6e6f7d7da6f718b6690b7c0a8ae4815afb89138aa5793abe78128e951dbb
+  md5: ca9d752201b7fa1225bca036ee300f2b
+  depends:
+  - libblas 3.11.0 5_h51639a9_openblas
+  constrains:
+  - libcblas   3.11.0   5*_openblas
+  - blas 2.305   openblas
+  - liblapacke 3.11.0   5*_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 18551
+  timestamp: 1765819121855
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libllvm18-18.1.8-default_h3f38c9c_11.conda
+  sha256: e777446dc50c48ed59486f6a08419d59a03f01c5594154f19d182a2ce5a664f3
+  md5: 6a9bba912968fb782aa1e8cb180ca6cc
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  - libxml2
+  - libxml2-16 >=2.14.6
+  - libzlib >=1.3.1,<2.0a0
+  - zstd >=1.5.7,<1.6.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 25876220
+  timestamp: 1764314088538
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libllvm21-21.1.8-h8e0c9ce_0.conda
+  sha256: 3f4512155aca799a25937f9ee794490794fb33f8f90a5e6532d8be869e7d79a0
+  md5: 8fc5b2387a7907cd58805668dad3b70f
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  - libxml2
+  - libxml2-16 >=2.14.6
+  - libzlib >=1.3.1,<2.0a0
+  - zstd >=1.5.7,<1.6.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 29398498
+  timestamp: 1765924904821
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/liblzma-5.8.2-h8088a28_0.conda
+  sha256: 7bfc7ffb2d6a9629357a70d4eadeadb6f88fa26ebc28f606b1c1e5e5ed99dc7e
+  md5: 009f0d956d7bfb00de86901d16e486c7
+  depends:
+  - __osx >=11.0
+  constrains:
+  - xz 5.8.2.*
+  license: 0BSD
+  size: 92242
+  timestamp: 1768752982486
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libnghttp2-1.67.0-hc438710_0.conda
+  sha256: a07cb53b5ffa2d5a18afc6fd5a526a5a53dd9523fbc022148bd2f9395697c46d
+  md5: a4b4dd73c67df470d091312ab87bf6ae
+  depends:
+  - __osx >=11.0
+  - c-ares >=1.34.5,<2.0a0
+  - libcxx >=19
+  - libev >=4.33,<4.34.0a0
+  - libev >=4.33,<5.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - openssl >=3.5.2,<4.0a0
+  license: MIT
+  license_family: MIT
+  size: 575454
+  timestamp: 1756835746393
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libntlm-1.8-h5505292_0.conda
+  sha256: ea8c680924d957e12270dca549620327d5e986f23c4bd5f45627167ca6ef7a3b
+  md5: c90c1d3bd778f5ec0d4bb4ef36cbd5b6
+  depends:
+  - __osx >=11.0
+  license: LGPL-2.1-or-later
+  size: 31099
+  timestamp: 1734670168822
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libogg-1.3.5-h48c0fde_1.conda
+  sha256: 28bd1fe20fe43da105da41b95ac201e95a1616126f287985df8e86ddebd1c3d8
+  md5: 29b8b11f6d7e6bd0e76c029dcf9dd024
+  depends:
+  - __osx >=11.0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 216719
+  timestamp: 1745826006052
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libopenblas-0.3.30-openmp_ha158390_4.conda
+  sha256: ebbbc089b70bcde87c4121a083c724330f02a690fb9d7c6cd18c30f1b12504fa
+  md5: a6f6d3a31bb29e48d37ce65de54e2df0
+  depends:
+  - __osx >=11.0
+  - libgfortran
+  - libgfortran5 >=14.3.0
+  - llvm-openmp >=19.1.7
+  constrains:
+  - openblas >=0.3.30,<0.3.31.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 4284132
+  timestamp: 1768547079205
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libopus-1.6.1-h1a92334_0.conda
+  sha256: 5c95a5f7712f543c59083e62fc3a95efec8b7f3773fbf4542ad1fb87fbf51ff4
+  md5: 7f414dd3fd1cb7a76e51fec074a9c49e
+  depends:
+  - __osx >=11.0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 308000
+  timestamp: 1768497248058
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libpng-1.6.55-h132b30e_0.conda
+  sha256: 7a4fd29a6ee2d7f7a6e610754dfdf7410ed08f40d8d8b488a27bc0f9981d5abb
+  md5: 871dc88b0192ac49b6a5509932c31377
+  depends:
+  - __osx >=11.0
+  - libzlib >=1.3.1,<2.0a0
+  license: zlib-acknowledgement
+  size: 288950
+  timestamp: 1770691485950
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libpq-18.2-h6caddbb_0.conda
+  sha256: c5df229177c964cce817739b4b59e1e1ceec315d4e6a30c70cb4994cf27390aa
+  md5: 41ae8b0d426096e1d11bd83d8ca949f5
+  depends:
+  - __osx >=11.0
+  - icu >=78.2,<79.0a0
+  - krb5 >=1.21.3,<1.22.0a0
+  - openldap >=2.6.10,<2.7.0a0
+  - openssl >=3.5.5,<4.0a0
+  license: PostgreSQL
+  size: 2643395
+  timestamp: 1770916690384
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libsqlite-3.51.2-h1ae2325_0.conda
+  sha256: 6e9b9f269732cbc4698c7984aa5b9682c168e2a8d1e0406e1ff10091ca046167
+  md5: 4b0bf313c53c3e89692f020fb55d5f2c
+  depends:
+  - __osx >=11.0
+  - icu >=78.2,<79.0a0
+  - libzlib >=1.3.1,<2.0a0
+  license: blessing
+  size: 909777
+  timestamp: 1768148320535
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libssh2-1.11.1-h1590b86_0.conda
+  sha256: 8bfe837221390ffc6f111ecca24fa12d4a6325da0c8d131333d63d6c37f27e0a
+  md5: b68e8f66b94b44aaa8de4583d3d4cc40
+  depends:
+  - libzlib >=1.3.1,<2.0a0
+  - openssl >=3.5.0,<4.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 279193
+  timestamp: 1745608793272
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libuv-1.51.0-h6caf38d_1.conda
+  sha256: 042c7488ad97a5629ec0a991a8b2a3345599401ecc75ad6a5af73b60e6db9689
+  md5: c0d87c3c8e075daf1daf6c31b53e8083
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 421195
+  timestamp: 1753948426421
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libvorbis-1.3.7-h81086ad_2.conda
+  sha256: 95768e4eceaffb973081fd986d03da15d93aa10609ed202e6fd5ca1e490a3dce
+  md5: 719e7653178a09f5ca0aa05f349b41f7
+  depends:
+  - libogg
+  - libcxx >=19
+  - __osx >=11.0
+  - libogg >=1.3.5,<1.4.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 259122
+  timestamp: 1753879389702
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libxcb-1.17.0-hdb1d25a_0.conda
+  sha256: bd3816218924b1e43b275863e21a3e13a5db4a6da74cca8e60bc3c213eb62f71
+  md5: af523aae2eca6dfa1c8eec693f5b9a79
+  depends:
+  - __osx >=11.0
+  - pthread-stubs
+  - xorg-libxau >=1.0.11,<2.0a0
+  - xorg-libxdmcp
+  license: MIT
+  license_family: MIT
+  size: 323658
+  timestamp: 1727278733917
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libxml2-2.15.1-h8d039ee_1.conda
+  sha256: 59f96fa27cce6a9a27414c5bb301eedda1a1b85cd0d8f5d68f77e46b86e7c95f
+  md5: fd804ee851e20faca4fecc7df0901d07
+  depends:
+  - __osx >=11.0
+  - icu >=78.1,<79.0a0
+  - libiconv >=1.18,<2.0a0
+  - liblzma >=5.8.1,<6.0a0
+  - libxml2-16 2.15.1 h5ef1a60_1
+  - libzlib >=1.3.1,<2.0a0
+  license: MIT
+  license_family: MIT
+  size: 40607
+  timestamp: 1766327501392
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libxml2-16-2.15.1-h5ef1a60_1.conda
+  sha256: 2d5ab15113b0ba21f4656d387d26ab59e4fbaf3027f5e58a2a4fe370821eb106
+  md5: 7eed1026708e26ee512f43a04d9d0027
+  depends:
+  - __osx >=11.0
+  - icu >=78.1,<79.0a0
+  - libiconv >=1.18,<2.0a0
+  - liblzma >=5.8.1,<6.0a0
+  - libzlib >=1.3.1,<2.0a0
+  constrains:
+  - libxml2 2.15.1
+  license: MIT
+  license_family: MIT
+  size: 464886
+  timestamp: 1766327479416
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.3.1-h8359307_2.conda
+  sha256: ce34669eadaba351cd54910743e6a2261b67009624dbc7daeeafdef93616711b
+  md5: 369964e85dc26bfe78f41399b366c435
+  depends:
+  - __osx >=11.0
+  constrains:
+  - zlib 1.3.1 *_2
+  license: Zlib
+  license_family: Other
+  size: 46438
+  timestamp: 1727963202283
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-21.1.8-h4a912ad_0.conda
+  sha256: 56bcd20a0a44ddd143b6ce605700fdf876bcf5c509adc50bf27e76673407a070
+  md5: 206ad2df1b5550526e386087bef543c7
+  depends:
+  - __osx >=11.0
+  constrains:
+  - openmp 21.1.8|21.1.8.*
+  - intel-openmp <0.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: APACHE
+  size: 285974
+  timestamp: 1765964756583
+- conda: https://conda.anaconda.org/conda-forge/noarch/matplotlib-inline-0.2.1-pyhd8ed1ab_0.conda
+  sha256: 9d690334de0cd1d22c51bc28420663f4277cfa60d34fa5cad1ce284a13f1d603
+  md5: 00e120ce3e40bad7bfc78861ce3c4a25
+  depends:
+  - python >=3.10
+  - traitlets
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 15175
+  timestamp: 1761214578417
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/ncurses-6.5-h5e97a16_3.conda
+  sha256: 2827ada40e8d9ca69a153a45f7fd14f32b2ead7045d3bbb5d10964898fe65733
+  md5: 068d497125e4bf8a66bf707254fff5ae
+  depends:
+  - __osx >=11.0
+  license: X11 AND BSD-3-Clause
+  size: 797030
+  timestamp: 1738196177597
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/netifaces-0.11.0-py311h3696347_4.conda
+  sha256: 0f108470925ee106c77b1abb26be3eff7a05c56d23c75ee4edbf2c86d9cf80d3
+  md5: 30ac1c8e6bfc058c8973242ce8746a80
+  depends:
+  - __osx >=11.0
+  - python >=3.11,<3.12.0a0
+  - python >=3.11,<3.12.0a0 *_cpython
+  - python_abi 3.11.* *_cp311
+  license: MIT
+  license_family: MIT
+  size: 18866
+  timestamp: 1756921315588
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/nspr-4.38-heaf21c2_0.conda
+  sha256: f8373ff02098179b9f9b2ce7b309e7ca4021c26180d07d67e1726e3d02e68e26
+  md5: 0b528ead848386c8a53ee0b76fbf2ac1
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  license: MPL-2.0
+  license_family: MOZILLA
+  size: 201977
+  timestamp: 1762349100072
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/nss-3.118-h1c710a3_0.conda
+  sha256: d57f7b2cf2860a2a848e3dd43cc4f5488e60050a7d62af1834da3ee43911d9c4
+  md5: ae07409126ced4f0d982dfeab0681016
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  - libsqlite >=3.51.0,<4.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - nspr >=4.38,<5.0a0
+  license: MPL-2.0
+  license_family: MOZILLA
+  size: 1839904
+  timestamp: 1763486575227
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/numpy-1.26.4-py311h7125741_0.conda
+  sha256: 160a52a01fea44fe9753a2ed22cf13d7b55c8a89ea0b8738546fdbf4795d6514
+  md5: 3160b93669a0def35a7a8158ebb33816
+  depends:
+  - libblas >=3.9.0,<4.0a0
+  - libcblas >=3.9.0,<4.0a0
+  - libcxx >=16
+  - liblapack >=3.9.0,<4.0a0
+  - python >=3.11,<3.12.0a0
+  - python >=3.11,<3.12.0a0 *_cpython
+  - python_abi 3.11.* *_cp311
+  constrains:
+  - numpy-base <0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 6652352
+  timestamp: 1707226297967
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/openldap-2.6.10-hbe55e7a_0.conda
+  sha256: 08d859836b81296c16f74336c3a9a455b23d57ce1d7c2b0b3e1b7a07f984c677
+  md5: 6fd5d73c63b5d37d9196efb4f044af76
+  depends:
+  - __osx >=11.0
+  - cyrus-sasl >=2.1.27,<3.0a0
+  - krb5 >=1.21.3,<1.22.0a0
+  - libcxx >=18
+  - openssl >=3.5.0,<4.0a0
+  license: OLDAP-2.8
+  license_family: BSD
+  size: 843597
+  timestamp: 1748010484231
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/openssl-3.6.1-hd24854e_1.conda
+  sha256: 361f5c5e60052abc12bdd1b50d7a1a43e6a6653aab99a2263bf2288d709dcf67
+  md5: f4f6ad63f98f64191c3e77c5f5f29d76
+  depends:
+  - __osx >=11.0
+  - ca-certificates
+  license: Apache-2.0
+  license_family: Apache
+  size: 3104268
+  timestamp: 1769556384749
+- conda: https://conda.anaconda.org/conda-forge/noarch/packaging-26.0-pyhcf101f3_0.conda
+  sha256: c1fc0f953048f743385d31c468b4a678b3ad20caffdeaa94bed85ba63049fd58
+  md5: b76541e68fea4d511b1ac46a28dcd2c6
+  depends:
+  - python >=3.8
+  - python
+  license: Apache-2.0
+  license_family: APACHE
+  size: 72010
+  timestamp: 1769093650580
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/pango-1.56.4-h875632e_0.conda
+  sha256: 705484ad60adee86cab1aad3d2d8def03a699ece438c864e8ac995f6f66401a6
+  md5: 7d57f8b4b7acfc75c777bc231f0d31be
+  depends:
+  - __osx >=11.0
+  - cairo >=1.18.4,<2.0a0
+  - fontconfig >=2.15.0,<3.0a0
+  - fonts-conda-ecosystem
+  - fribidi >=1.0.10,<2.0a0
+  - harfbuzz >=11.0.1
+  - libexpat >=2.7.0,<3.0a0
+  - libfreetype >=2.13.3
+  - libfreetype6 >=2.13.3
+  - libglib >=2.84.2,<3.0a0
+  - libpng >=1.6.49,<1.7.0a0
+  - libzlib >=1.3.1,<2.0a0
+  license: LGPL-2.1-or-later
+  size: 426931
+  timestamp: 1751292636271
+- conda: https://conda.anaconda.org/conda-forge/noarch/parso-0.8.6-pyhcf101f3_0.conda
+  sha256: 42b2d77ccea60752f3aa929a6413a7835aaacdbbde679f2f5870a744fa836b94
+  md5: 97c1ce2fffa1209e7afb432810ec6e12
+  depends:
+  - python >=3.10
+  - python
+  license: MIT
+  license_family: MIT
+  size: 82287
+  timestamp: 1770676243987
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/pcre2-10.47-h30297fc_0.conda
+  sha256: 5e2e443f796f2fd92adf7978286a525fb768c34e12b1ee9ded4000a41b2894ba
+  md5: 9b4190c4055435ca3502070186eba53a
+  depends:
+  - __osx >=11.0
+  - bzip2 >=1.0.8,<2.0a0
+  - libzlib >=1.3.1,<2.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 850231
+  timestamp: 1763655726735
+- conda: https://conda.anaconda.org/conda-forge/noarch/pexpect-4.9.0-pyhd8ed1ab_1.conda
+  sha256: 202af1de83b585d36445dc1fda94266697341994d1a3328fabde4989e1b3d07a
+  md5: d0d408b1f18883a944376da5cf8101ea
+  depends:
+  - ptyprocess >=0.5
+  - python >=3.9
+  license: ISC
+  size: 53561
+  timestamp: 1733302019362
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/pixman-0.46.4-h81086ad_1.conda
+  sha256: 29c9b08a9b8b7810f9d4f159aecfd205fce051633169040005c0b7efad4bc718
+  md5: 17c3d745db6ea72ae2fce17e7338547f
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  license: MIT
+  license_family: MIT
+  size: 248045
+  timestamp: 1754665282033
+- conda: https://conda.anaconda.org/conda-forge/noarch/pluggy-1.6.0-pyhf9edf01_1.conda
+  sha256: e14aafa63efa0528ca99ba568eaf506eb55a0371d12e6250aaaa61718d2eb62e
+  md5: d7585b6550ad04c8c5e21097ada2888e
+  depends:
+  - python >=3.9
+  - python
+  license: MIT
+  license_family: MIT
+  size: 25877
+  timestamp: 1764896838868
+- conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.52-pyha770c72_0.conda
+  sha256: 4817651a276016f3838957bfdf963386438c70761e9faec7749d411635979bae
+  md5: edb16f14d920fb3faf17f5ce582942d6
+  depends:
+  - python >=3.10
+  - wcwidth
+  constrains:
+  - prompt_toolkit 3.0.52
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 273927
+  timestamp: 1756321848365
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/pthread-stubs-0.4-hd74edd7_1002.conda
+  sha256: 8ed65e17fbb0ca944bfb8093b60086e3f9dd678c3448b5de212017394c247ee3
+  md5: 415816daf82e0b23a736a069a75e9da7
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 8381
+  timestamp: 1726802424786
+- conda: https://conda.anaconda.org/conda-forge/noarch/ptyprocess-0.7.0-pyhd8ed1ab_1.conda
+  sha256: a7713dfe30faf17508ec359e0bc7e0983f5d94682492469bd462cdaae9c64d83
+  md5: 7d9daffbb8d8e0af0f769dbbcd173a54
+  depends:
+  - python >=3.9
+  license: ISC
+  size: 19457
+  timestamp: 1733302371990
+- conda: https://conda.anaconda.org/conda-forge/noarch/pure_eval-0.2.3-pyhd8ed1ab_1.conda
+  sha256: 71bd24600d14bb171a6321d523486f6a06f855e75e547fa0cb2a0953b02047f0
+  md5: 3bfdfb8dbcdc4af1ae3f9a8eb3948f04
+  depends:
+  - python >=3.9
+  license: MIT
+  license_family: MIT
+  size: 16668
+  timestamp: 1733569518868
+- conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.2-pyhd8ed1ab_0.conda
+  sha256: 5577623b9f6685ece2697c6eb7511b4c9ac5fb607c9babc2646c811b428fd46a
+  md5: 6b6ece66ebcae2d5f326c77ef2c5a066
+  depends:
+  - python >=3.9
+  license: BSD-2-Clause
+  license_family: BSD
+  size: 889287
+  timestamp: 1750615908735
+- conda: https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.3.2-pyhcf101f3_0.conda
+  sha256: 417fba4783e528ee732afa82999300859b065dc59927344b4859c64aae7182de
+  md5: 3687cc0b82a8b4c17e1f0eb7e47163d5
+  depends:
+  - python >=3.10
+  - python
+  license: MIT
+  license_family: MIT
+  size: 110893
+  timestamp: 1769003998136
+- conda: https://conda.anaconda.org/conda-forge/noarch/pytest-9.0.2-pyhcf101f3_0.conda
+  sha256: 9e749fb465a8bedf0184d8b8996992a38de351f7c64e967031944978de03a520
+  md5: 2b694bad8a50dc2f712f5368de866480
+  depends:
+  - pygments >=2.7.2
+  - python >=3.10
+  - iniconfig >=1.0.1
+  - packaging >=22
+  - pluggy >=1.5,<2
+  - tomli >=1
+  - colorama >=0.4
+  - exceptiongroup >=1
+  - python
+  constrains:
+  - pytest-faulthandler >=2
+  license: MIT
+  license_family: MIT
+  size: 299581
+  timestamp: 1765062031645
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.11.14-h18782d2_3_cpython.conda
+  build_number: 3
+  sha256: f862d544a455bedfa5d77305f0a42c8e3392956e364f8f92d6ca1c844fb3fbd1
+  md5: b8f6a28ffd3c97367d4e58e8793ff47c
+  depends:
+  - __osx >=11.0
+  - bzip2 >=1.0.8,<2.0a0
+  - libexpat >=2.7.3,<3.0a0
+  - libffi >=3.5.2,<3.6.0a0
+  - liblzma >=5.8.2,<6.0a0
+  - libsqlite >=3.51.2,<4.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - ncurses >=6.5,<7.0a0
+  - openssl >=3.5.4,<4.0a0
+  - readline >=8.3,<9.0a0
+  - tk >=8.6.13,<8.7.0a0
+  - tzdata
+  constrains:
+  - python_abi 3.11.* *_cp311
+  license: Python-2.0
+  size: 13707418
+  timestamp: 1769472290774
+- conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
+  sha256: d6a17ece93bbd5139e02d2bd7dbfa80bee1a4261dced63f65f679121686bf664
+  md5: 5b8d21249ff20967101ffa321cab24e8
+  depends:
+  - python >=3.9
+  - six >=1.5
+  - python
+  license: Apache-2.0
+  license_family: APACHE
+  size: 233310
+  timestamp: 1751104122689
+- conda: https://conda.anaconda.org/conda-forge/noarch/python_abi-3.11-8_cp311.conda
+  build_number: 8
+  sha256: fddf123692aa4b1fc48f0471e346400d9852d96eeed77dbfdd746fa50a8ff894
+  md5: 8fcb6b0e2161850556231336dae58358
+  constrains:
+  - python 3.11.* *_cpython
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 7003
+  timestamp: 1752805919375
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/pyyaml-6.0.3-py311hc290fe0_1.conda
+  sha256: 984e73d7957460689e10533059de8adb38a308853d298900a37acc58edd84cec
+  md5: e4b908da7cd496b3fa6798c0f60a2a19
+  depends:
+  - __osx >=11.0
+  - python >=3.11,<3.12.0a0
+  - python >=3.11,<3.12.0a0 *_cpython
+  - python_abi 3.11.* *_cp311
+  - yaml >=0.2.5,<0.3.0a0
+  license: MIT
+  license_family: MIT
+  size: 192948
+  timestamp: 1770223655988
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/qt-main-5.15.15-h4427410_7.conda
+  sha256: 9323bc4937d88bc855819ad47f895b2cdf16a115513faa52994b1ddd9cbc92c4
+  md5: 224ddb761f423f0513032388d178efae
+  depends:
+  - __osx >=11.0
+  - gst-plugins-base >=1.26.10,<1.27.0a0
+  - gstreamer >=1.26.10,<1.27.0a0
+  - icu >=78.2,<79.0a0
+  - krb5 >=1.21.3,<1.22.0a0
+  - libclang-cpp18.1 >=18.1.8,<18.2.0a0
+  - libclang13 >=18.1.8
+  - libcxx >=18
+  - libglib >=2.86.3,<3.0a0
+  - libjpeg-turbo >=3.1.2,<4.0a0
+  - libllvm18 >=18.1.8,<18.2.0a0
+  - libpng >=1.6.55,<1.7.0a0
+  - libpq >=18.1,<19.0a0
+  - libsqlite >=3.51.2,<4.0a0
+  - libzlib >=1.3.1,<2.0a0
+  - nspr >=4.38,<5.0a0
+  - nss >=3.118,<4.0a0
+  - zstd >=1.5.7,<1.6.0a0
+  constrains:
+  - qt 5.15.15
+  license: LGPL-3.0-only
+  license_family: LGPL
+  size: 49981627
+  timestamp: 1770724524902
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/readline-8.3-h46df422_0.conda
+  sha256: a77010528efb4b548ac2a4484eaf7e1c3907f2aec86123ed9c5212ae44502477
+  md5: f8381319127120ce51e081dce4865cf4
+  depends:
+  - __osx >=11.0
+  - ncurses >=6.5,<7.0a0
+  license: GPL-3.0-only
+  license_family: GPL
+  size: 313930
+  timestamp: 1765813902568
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/rhash-1.4.6-h5505292_1.conda
+  sha256: f4957c05f4fbcd99577de8838ca4b5b1ae4b400a44be647a0159c14f85b9bfc0
+  md5: 029e812c8ae4e0d4cf6ff4f7d8dc9366
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 185448
+  timestamp: 1748645057503
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-action-msgs-1.2.1-np126py311h2a51a2c_13.conda
+  sha256: 0889e858d73619020bcba44cc1a870678dc20b8373b0c5818b6420d00555cf4c
+  md5: 56c700a20406c2574033a8ba625dce59
+  depends:
+  - python
+  - ros-humble-builtin-interfaces
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-unique-identifier-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 107386
+  timestamp: 1753311241104
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 4fd3da5acd60b8b803140786acac71b11734e7c68e498e81361da2c173c0da31
+  md5: 8b53f88c38f35bef23cf2832f3d2c145
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-cmake-export-definitions
+  - ros-humble-ament-cmake-export-dependencies
+  - ros-humble-ament-cmake-export-include-directories
+  - ros-humble-ament-cmake-export-interfaces
+  - ros-humble-ament-cmake-export-libraries
+  - ros-humble-ament-cmake-export-link-flags
+  - ros-humble-ament-cmake-export-targets
+  - ros-humble-ament-cmake-gen-version-h
+  - ros-humble-ament-cmake-libraries
+  - ros-humble-ament-cmake-python
+  - ros-humble-ament-cmake-target-dependencies
+  - ros-humble-ament-cmake-test
+  - ros-humble-ament-cmake-version
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - cmake
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 23374
+  timestamp: 1753308652441
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-core-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 77e766efdd75303ca725f36652e5092a6f165e77c94fc28188d2c9562a4a2a8c
+  md5: 5bcf366df8252ea2690e1175fd1918fe
+  depends:
+  - catkin_pkg
+  - python
+  - ros-humble-ament-package
+  - ros2-distro-mutex 0.7.* humble_*
+  - cmake
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 44794
+  timestamp: 1753307871726
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-definitions-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: dd4198a80ac4c20085ed398c6d25acdfb98e5ee89fbc99e2124660bc5ae55807
+  md5: 6e43908c64af81707040aa51b3544d94
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 22166
+  timestamp: 1753308035981
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-dependencies-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: fdaa2f6ca73038736d0b5a41973dee842cefcef6f714606e1cec582a04b005b2
+  md5: 28c64040d14174873306b8d61350442d
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-cmake-libraries
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 23356
+  timestamp: 1753308205764
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-include-directories-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 0ce61517a4b68e41abce271785db7d23e3a80cfda2c441d501820b7e2ea2527c
+  md5: aac6ff3077feeef672500fca4ef8975a
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 22610
+  timestamp: 1753308027659
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-interfaces-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: f4742772737ba430db54bb5febb9a1b6e2c29a5e5d0dfa0fd7217c34e86ac72b
+  md5: 6a29ee631df16b590088aee67f28aa91
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-cmake-export-libraries
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 22800
+  timestamp: 1753308244667
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-libraries-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 2d360731b01a2b58b2bae858fb39bc15578b807924d5f089a6d8fac209e43c3a
+  md5: 1a06570ee8756c0eccc5b9639f8e7367
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 24137
+  timestamp: 1753307981303
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-link-flags-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 30eab5cfae91579dc2ff20b5a9f3181a61426eb865c63e396da95e5c5f36177c
+  md5: 247935bce1c2932d85d3f22d5fcda9c4
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 22126
+  timestamp: 1753308018424
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-export-targets-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: ea4dc958f9c8ea2dc884ad7cf921081a71af74141a21c5218844208ed44e5073
+  md5: fde004a87952115b936f9859c3dd5573
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-cmake-export-libraries
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 22944
+  timestamp: 1753308239314
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-gen-version-h-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 9e337d677d113ef70151fc50c84d95a0cbd346cef9808201fb0df3099150ccba
+  md5: 9282fe3b5ad644a164b0a522c98d95cd
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 24905
+  timestamp: 1753308544972
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-gmock-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: cfd4743b79f722a47aa22154fb864e2c327427eff8e5a95bb87fc3a6f4268661
+  md5: cd7e2860928731b48477db9189815c1c
+  depends:
+  - gmock
+  - python
+  - ros-humble-ament-cmake-gtest
+  - ros-humble-ament-cmake-test
+  - ros-humble-gmock-vendor
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 24485
+  timestamp: 1753308555800
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-gtest-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 8414f028348d1793af8d245e21b654aaa08036f4bea195a490ecbd82c12c5e73
+  md5: 060def4787ccb0c86030f1f650cfda6d
+  depends:
+  - gtest
+  - python
+  - ros-humble-ament-cmake-test
+  - ros-humble-gtest-vendor
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - gtest >=1.17.0,<1.17.1.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 24744
+  timestamp: 1753308382582
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-include-directories-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 62163e5c0190590eca621309123623103f96fd9c79a03261c66acf3cd3a2649a
+  md5: d5d0201256507f6af9e37de564335ff6
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 22037
+  timestamp: 1753308003837
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-libraries-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 5d520debcb590c84f7b53385748899ee474d2de8fb3c713b1d826a732ebad5b8
+  md5: cc5bc033e3b933f1554171a8df86441e
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 21745
+  timestamp: 1753307994047
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-pytest-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 3d091b83f69481c05bb28563170fc090bbdde6adf2f2475ca2f131f61b9ef07d
+  md5: 12895a75851aa581c98066678b19093c
+  depends:
+  - pytest
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-cmake-test
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 24975
+  timestamp: 1753308403553
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-python-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: cfefedea7f76f8262a60b61505d3858b4ea988b3ac3650ab04fea4dd1c22f5af
+  md5: ee7e775d5283d5dc05612de4d4a5fcae
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 24349
+  timestamp: 1753307975915
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-ros-0.10.0-np126py311h2a51a2c_13.conda
+  sha256: 25cc29853a4fbf65495a53eabf7b6dad09150441d5bd79f41a67f58f436e4a44
+  md5: 696a7940d1ff70149279aa108cf05895
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ament-cmake-gmock
+  - ros-humble-ament-cmake-gtest
+  - ros-humble-ament-cmake-pytest
+  - ros-humble-domain-coordinator
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 30864
+  timestamp: 1753310206767
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-target-dependencies-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 89d18f6c2447f3412ffe55defbee107e24201cd9682ff53557fb0c88a62b5aec
+  md5: 38198d759d4a72bb5342c73c8f16986a
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-cmake-include-directories
+  - ros-humble-ament-cmake-libraries
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 23730
+  timestamp: 1753308233894
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-test-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 90d007071357211ebd790c9331313ee5e506f96c12a5fcb75f49a0410db889d5
+  md5: b28acde249ba1eaf4fe41ca8f630bded
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 36340
+  timestamp: 1753308223645
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-cmake-version-1.3.12-np126py311h2a51a2c_13.conda
+  sha256: 00a11735f07cc56142d37db1f9efbccba7072dd3ad4c9b63338eb5f21bc78e5f
+  md5: f2c358911853092638904798790844c2
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 21910
+  timestamp: 1753308006733
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-index-cpp-1.4.0-np126py311h2a51a2c_13.conda
+  sha256: 005adf55307cc8be825ace7a76d252393ad3399d5e7c009a23d3cc6928819e26
+  md5: bac00a03565f93cf4b831d15a019767b
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 46051
+  timestamp: 1753310268755
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-index-python-1.4.0-np126py311h2a51a2c_13.conda
+  sha256: ff37c9cfb87f16661d66328e5eca73571e3d00ba7a1c04e1a31b5cb68565534b
+  md5: 6d65858035e7bd4ee2ccd9d224d6b4e5
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 28637
+  timestamp: 1753308675116
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ament-package-0.14.1-np126py311h2a51a2c_13.conda
+  sha256: f9851a6757e3fdb6ea7b39215e3d4b73b9083b3077a00610f80086e1e22dc0e5
+  md5: dac6839fa31f81d042e74bd038a64ecc
+  depends:
+  - importlib-metadata
+  - importlib_resources
+  - python
+  - ros2-distro-mutex 0.7.* humble_*
+  - setuptools
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 47709
+  timestamp: 1753307859094
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-builtin-interfaces-1.2.1-np126py311h2a51a2c_13.conda
+  sha256: 4dfffd1a8cfaeaf9ca47cf64670119f5e6edf01b41ed57b7cd50b31e218e12f3
+  md5: ca1ae998a6656b24c5635b3007c864df
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 70197
+  timestamp: 1753311158592
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-cyclonedds-0.10.5-np126py311h2a51a2c_13.conda
+  sha256: 586e7f8948073bdfea5e3f1d5fa4fb8f0f4f16e2a38c32ee093602cb08dbb4fb
+  md5: 125b444b345ed8b5b72e161feec90559
+  depends:
+  - openssl
+  - python
+  - ros-humble-iceoryx-binding-c
+  - ros-humble-iceoryx-hoofs
+  - ros-humble-iceoryx-posh
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - openssl >=3.5.1,<4.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 1053739
+  timestamp: 1753308561883
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-domain-coordinator-0.10.0-np126py311h2a51a2c_13.conda
+  sha256: 35d5082c1597cb079be637eaa2311d57ceababc3da4bb05a257939acda1ba065
+  md5: e7b5b8efb7c4f5dfab1475bee9459bbc
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 20680
+  timestamp: 1753308639842
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastcdr-1.0.24-np126py311h2a51a2c_13.conda
+  sha256: 24859b86f7fb26e3231413929d83d30ce7e4858dfa510ba282b18088a810bb69
+  md5: 6240044cf822aadbb1e2498b07ba8c6d
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 57498
+  timestamp: 1753308058181
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastrtps-2.6.10-np126py311h2a51a2c_13.conda
+  sha256: 2ceb70cd206e812216f1e50208746c5c13a4ac8f9ec70ac3ea0862b19bba3c28
+  md5: dcc71a57047a7f391cfdc11dd7208e44
+  depends:
+  - openssl
+  - python
+  - ros-humble-fastcdr
+  - ros-humble-foonathan-memory-vendor
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - tinyxml2
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - openssl >=3.5.1,<4.0a0
+  - tinyxml2 >=11.0.0,<11.1.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 2598215
+  timestamp: 1753310112593
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastrtps-cmake-module-2.2.2-np126py311h2a51a2c_13.conda
+  sha256: 7007d048e71ca2a6309c744529a7bc16eecd96046ca1030dd9d3e0abe1f298a8
+  md5: a0a85aa567a71cfbbbfb6f7b05bdec33
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 26804
+  timestamp: 1753310096066
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-foonathan-memory-vendor-1.2.0-np126py311h2a51a2c_13.conda
+  sha256: abf1815ab4b901aef0eeedd43b91cd915b7169cda04dba84c4662a1b33a362ef
+  md5: bc6455a42df88f62fb1b95aa9606d9f8
+  depends:
+  - foonathan-memory
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - cmake
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - foonathan-memory >=0.7.3,<0.7.4.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 19507
+  timestamp: 1753309718021
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-geometry-msgs-4.9.0-np126py311h2a51a2c_13.conda
+  sha256: 6f913ed64d85cbaa2209496229201da1354908dcba593f873e12c196caef3262
+  md5: b536f6bb35298207283ace3323255e54
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-std-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 275633
+  timestamp: 1753311463894
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-gmock-vendor-1.10.9006-np126py311h2a51a2c_13.conda
+  sha256: a8351f213b0edfa9c327addf500240d97c98ef990f7e7e78ca2744e735ce28d0
+  md5: 3912e32c17a5d96036b186800780c514
+  depends:
+  - python
+  - ros-humble-gtest-vendor
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 113709
+  timestamp: 1753308234184
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-gtest-vendor-1.10.9006-np126py311h2a51a2c_13.conda
+  sha256: c91cd3a2faccbc0a978840e68c429512fba95a98e96f1340b2db519b8b2a6db0
+  md5: f25a9a8f8efad58b6cfd591cd66f95a9
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 200053
+  timestamp: 1753307986725
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-iceoryx-binding-c-2.0.5-np126py311h2a51a2c_13.conda
+  sha256: 97b991e652b6d4f07130c5cb804b13e914e4ad24583c4f4c6ef5a168fa27d139
+  md5: 9d55ffe18149c4de386ae311b19b8b06
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 81438
+  timestamp: 1753308362305
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-iceoryx-hoofs-2.0.5-np126py311h2a51a2c_13.conda
+  sha256: 026871b4e52027069f79e1f21a46c7db362fa78d313adbbad94b892f3df70a8e
+  md5: ba3fd9b55e9719745218a044c00b8a73
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 257679
+  timestamp: 1753308068075
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-iceoryx-posh-2.0.5-np126py311h2a51a2c_13.conda
+  sha256: fce179db780017179183a5ed7d29f2593926c73b2899ef1a85c67773ab003110
+  md5: 613dd4df8f1ae885e662c43568285f0a
+  depends:
+  - python
+  - ros-humble-iceoryx-hoofs
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 433004
+  timestamp: 1753308243943
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-libstatistics-collector-1.3.4-np126py311h2a51a2c_13.conda
+  sha256: 54a21a38b40ab4c18f184a7113b42bbc1d6561e9aeb1af4a8f643d393dcf7355
+  md5: 09df9d3c1a071fd4b49f039809b818fb
+  depends:
+  - python
+  - ros-humble-builtin-interfaces
+  - ros-humble-rcl
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-statistics-msgs
+  - ros-humble-std-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 54483
+  timestamp: 1753312731693
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-libyaml-vendor-1.2.2-np126py311h2a51a2c_13.conda
+  sha256: cf9c9ec8e8f63afd009a2e68555cf0f837af2d99ac88a96ff231fb8eeca135d0
+  md5: caceeed1606529206606506140ba8372
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - yaml
+  - yaml-cpp
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - yaml-cpp >=0.8.0,<0.9.0a0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - yaml >=0.2.5,<0.3.0a0
+  license: BSD-3-Clause
+  size: 30329
+  timestamp: 1753310658867
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-lifecycle-msgs-1.2.1-np126py311h2a51a2c_13.conda
+  sha256: fb0cdf633e4ffc58429a08c0efff002d3cedf1dc470f84a83e13a3da2800406c
+  md5: e1a8c4b8fa1d2d7162b68b63d3ab6741
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 154583
+  timestamp: 1753311186914
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-python-cmake-module-0.10.0-np126py311h2a51a2c_13.conda
+  sha256: 8af108ed36cba5dd88ca8905cacb58d67fe936456fb622ce9503a511170315ca
+  md5: c2c76b73ec5e30bc67ad4b3da5b5988a
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 27866
+  timestamp: 1753310181276
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-5.3.9-np126py311h2a51a2c_13.conda
+  sha256: 9d34d7082cb4b0ff6b38b673ff4fee003b4e9f8810080c1fa711b8046b459936
+  md5: 1528671e4471088d397f6d0bea6cf777
+  depends:
+  - python
+  - ros-humble-rcl-interfaces
+  - ros-humble-rcl-logging-interface
+  - ros-humble-rcl-logging-spdlog
+  - ros-humble-rcl-yaml-param-parser
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-rmw-implementation
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-tracetools
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 160619
+  timestamp: 1753312401528
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-action-5.3.9-np126py311h2a51a2c_13.conda
+  sha256: c735dc774b1ccce827af5ac552880c68868dc2959d897d5caa13d6acbcd8eef2
+  md5: dca98b7152bf672f7d98dbfd4fd4aa15
+  depends:
+  - python
+  - ros-humble-action-msgs
+  - ros-humble-rcl
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 73216
+  timestamp: 1753312721988
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-interfaces-1.2.1-np126py311h2a51a2c_13.conda
+  sha256: 716d97b5e2f0d6af14da1118911ad4a17a81166da691167ab700ef084591f80b
+  md5: d748ace26bb4d5715072358924d3cb6d
+  depends:
+  - python
+  - ros-humble-builtin-interfaces
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 280129
+  timestamp: 1753311327277
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-lifecycle-5.3.9-np126py311h2a51a2c_13.conda
+  sha256: ee6444a97b5fb4f89ca8489b003aa1420668ec348f7ad3c749be61d3e9f9b10e
+  md5: ce1cbfa7be1c20583ce677bb6e870a20
+  depends:
+  - python
+  - ros-humble-lifecycle-msgs
+  - ros-humble-rcl
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-tracetools
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 52689
+  timestamp: 1753312701917
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-logging-interface-2.3.1-np126py311h2a51a2c_13.conda
+  sha256: a5965f362aa8292c142d80cc4dc16e08ba28b62173cf314ec8d3824345ae3c71
+  md5: 9c8da46e43a3fb9c49f15aa297c0534f
+  depends:
+  - python
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 34468
+  timestamp: 1753310618732
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-logging-spdlog-2.3.1-np126py311h6932ae0_13.conda
+  sha256: bdea417f3712e8d78fb8d9e83ac6593056c239c4254de0a85da1cbdc7b5826ad
+  md5: 496f5822f5ca3f1079b6a4510d0dee67
+  depends:
+  - python
+  - ros-humble-rcl-logging-interface
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros-humble-spdlog-vendor
+  - ros2-distro-mutex 0.7.* humble_*
+  - spdlog
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - spdlog >=1.15.3,<1.16.0a0
+  license: BSD-3-Clause
+  size: 39276
+  timestamp: 1753310732116
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcl-yaml-param-parser-5.3.9-np126py311h2a51a2c_13.conda
+  sha256: 0b2d60e6e73d5c18aa5c438e20f8829bfab08fd6fe6fc50de671c36b5c18755c
+  md5: 2910e29c5e347098186b95536c20729a
+  depends:
+  - python
+  - ros-humble-libyaml-vendor
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - yaml
+  - yaml-cpp
+  - libcxx >=18
+  - __osx >=11.0
+  - yaml >=0.2.5,<0.3.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - yaml-cpp >=0.8.0,<0.9.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 48577
+  timestamp: 1753310720310
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rclcpp-16.0.13-np126py311h2a51a2c_13.conda
+  sha256: 460c0b9caeef52a5fd805bac921f1d073cb21507e711ea3b54042090c9defa0f
+  md5: e1b4732346107feaa66bf026ed528051
+  depends:
+  - python
+  - ros-humble-ament-index-cpp
+  - ros-humble-builtin-interfaces
+  - ros-humble-libstatistics-collector
+  - ros-humble-rcl
+  - ros-humble-rcl-interfaces
+  - ros-humble-rcl-yaml-param-parser
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros-humble-rosgraph-msgs
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-c
+  - ros-humble-rosidl-typesupport-cpp
+  - ros-humble-statistics-msgs
+  - ros-humble-tracetools
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 647593
+  timestamp: 1753312847180
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rclcpp-action-16.0.13-np126py311h2a51a2c_13.conda
+  sha256: 67cc9989a70e9abb38e80efdd14beafc6ae2e99fd0bfef46630a4f63593c640b
+  md5: adf99ded6ccd314794db290e130a3556
+  depends:
+  - python
+  - ros-humble-action-msgs
+  - ros-humble-ament-cmake
+  - ros-humble-rcl-action
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 101181
+  timestamp: 1753313286673
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rclpy-3.3.16-np126py311h2a51a2c_13.conda
+  sha256: 6417a61da3c2ee0ead374794805715a8cb842862a441be1b110e6c7ccbf629a4
+  md5: da16d9744c22ce688332c24cab0f855f
+  depends:
+  - python
+  - ros-humble-ament-index-python
+  - ros-humble-builtin-interfaces
+  - ros-humble-rcl
+  - ros-humble-rcl-action
+  - ros-humble-rcl-interfaces
+  - ros-humble-rcl-lifecycle
+  - ros-humble-rcl-logging-interface
+  - ros-humble-rcl-yaml-param-parser
+  - ros-humble-rmw
+  - ros-humble-rmw-implementation
+  - ros-humble-ros-workspace
+  - ros-humble-rosgraph-msgs
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rpyutils
+  - ros-humble-unique-identifier-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - typing_extensions
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 597166
+  timestamp: 1753312784236
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcpputils-2.4.5-np126py311h2a51a2c_13.conda
+  sha256: 371f4adce73df132dc4a5e8970b08f14932e5c2b21a32f888d638ad1cf8293c1
+  md5: be031b7c4624af4db612902d4eb5a3c9
+  depends:
+  - python
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 77506
+  timestamp: 1753310556108
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rcutils-5.1.6-np126py311h2a51a2c_13.conda
+  sha256: c43d0446191d0133e4df3d2d144d6ecba632217c04c0ef8b25f58ba78ead4516
+  md5: 7f5f55167d346079355bf6870a3939cd
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 111037
+  timestamp: 1753310419689
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-6.1.2-np126py311h2a51a2c_13.conda
+  sha256: c883d1a6958fd50b3af27ed9be31ebdb34dc0a510040b4a392b58bc2d90e5657
+  md5: 1fc5641dd31531ee9636fb3a53f5aa5e
+  depends:
+  - python
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 88495
+  timestamp: 1753310640397
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-connextdds-0.11.3-np126py311h2a51a2c_13.conda
+  sha256: c8c0ec39eb12630b7d2a9d8e8d9dbead7135368c237abeb5e3a237336654da26
+  md5: 87d68774d71e13ca55acb779ec716f96
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-rmw-connextdds-common
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 30426
+  timestamp: 1753311441526
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-connextdds-common-0.11.3-np126py311h2a51a2c_13.conda
+  sha256: 38555f738a312f35ee989b2a8532537acd7cf4c65c6a5e18095ea8655c8c76da
+  md5: f2b06f1d73be218a8035d4d94c287546
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-fastcdr
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-rmw-dds-common
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-fastrtps-c
+  - ros-humble-rosidl-typesupport-fastrtps-cpp
+  - ros-humble-rosidl-typesupport-introspection-c
+  - ros-humble-rosidl-typesupport-introspection-cpp
+  - ros-humble-rti-connext-dds-cmake-module
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 52072
+  timestamp: 1753311299360
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-cyclonedds-cpp-1.3.4-np126py311h2a51a2c_13.conda
+  sha256: a695b3c4f58f99b0d4844bc37622288835a502183d86c8c9b155cde76499b27c
+  md5: 3b3a94c72e1a52adcc73ea265039669d
+  depends:
+  - python
+  - ros-humble-cyclonedds
+  - ros-humble-iceoryx-binding-c
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-rmw-dds-common
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-typesupport-introspection-c
+  - ros-humble-rosidl-typesupport-introspection-cpp
+  - ros-humble-tracetools
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 183074
+  timestamp: 1753311309113
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-dds-common-1.6.0-np126py311h2a51a2c_13.conda
+  sha256: 4dab87597791768a2e9ce8c303280edeea365b7e8b25d0f15c0f62a8d63d4670
+  md5: 2e250e11e360d966e13260f3a941c7c5
+  depends:
+  - python
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-rosidl-runtime-cpp
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 135957
+  timestamp: 1753311172231
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-fastrtps-cpp-6.2.7-np126py311h2a51a2c_13.conda
+  sha256: b7f675dc82e874736c292fc0f0dac686be6dcf2ff000b192b8e33a3e342446bd
+  md5: 7da9f978e000b72a5d37038cdeaef3c4
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-fastcdr
+  - ros-humble-fastrtps
+  - ros-humble-fastrtps-cmake-module
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-rmw-dds-common
+  - ros-humble-rmw-fastrtps-shared-cpp
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-fastrtps-c
+  - ros-humble-rosidl-typesupport-fastrtps-cpp
+  - ros-humble-tracetools
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 113525
+  timestamp: 1753311751836
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-fastrtps-dynamic-cpp-6.2.7-np126py311h2a51a2c_13.conda
+  sha256: 89f476be13d24af80ccaaac4c3dc4bca9def0a5f260b3bbc4426b9220fd4e7ad
+  md5: 4fe9c5bc5557407b54c1e3cc6af72b01
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-fastcdr
+  - ros-humble-fastrtps
+  - ros-humble-fastrtps-cmake-module
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-rmw-dds-common
+  - ros-humble-rmw-fastrtps-shared-cpp
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-typesupport-fastrtps-c
+  - ros-humble-rosidl-typesupport-fastrtps-cpp
+  - ros-humble-rosidl-typesupport-introspection-c
+  - ros-humble-rosidl-typesupport-introspection-cpp
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 137498
+  timestamp: 1753311714929
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-fastrtps-shared-cpp-6.2.7-np126py311h2a51a2c_13.conda
+  sha256: 2d447906888931e5d2202cc1f12602d2279aaaf79d78c6ec543204f777a4b33e
+  md5: cc3d121ed8fa398fa5396d5fafda3a48
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-fastcdr
+  - ros-humble-fastrtps
+  - ros-humble-fastrtps-cmake-module
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw
+  - ros-humble-rmw-dds-common
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-typesupport-introspection-c
+  - ros-humble-rosidl-typesupport-introspection-cpp
+  - ros-humble-tracetools
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 170138
+  timestamp: 1753311269303
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-implementation-2.8.4-np126py311h2a51a2c_13.conda
+  sha256: a0b80b1b1c0468eae2eb31dbe56b04b384e0e1c4db447e2b1d2895001f7c759c
+  md5: c08fdee00d7cb097175811d5018ef7e4
+  depends:
+  - python
+  - ros-humble-ament-index-cpp
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-rmw-connextdds
+  - ros-humble-rmw-cyclonedds-cpp
+  - ros-humble-rmw-fastrtps-cpp
+  - ros-humble-rmw-fastrtps-dynamic-cpp
+  - ros-humble-rmw-implementation-cmake
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - fmt >=11.2.0,<11.3.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 49260
+  timestamp: 1753312095539
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rmw-implementation-cmake-6.1.2-np126py311h2a51a2c_13.conda
+  sha256: 8015eaf19f2e0f2d78c0b35c75616d2f62986dd5eb4e04e4c84ce2e76427389b
+  md5: 56d1e8ab65ebb899766da161d15b9c1b
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 29475
+  timestamp: 1753310262634
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros-workspace-1.0.2-np126py311h2a51a2c_13.conda
+  sha256: f6fc33ac852a0c47a620427947ad78dfb769c1b1b6e7cd6b3867c3e6b6312ec8
+  md5: b17dd6789d181ea59dcbfdaa9bf78590
+  depends:
+  - python
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 36223
+  timestamp: 1753307904148
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2action-0.18.12-np126py311h2a51a2c_13.conda
+  sha256: c3c39d0435af14b7087ce42ac2c1608a67fb2f18b37d114edbfebafa5c12c432
+  md5: d37bcf34e50f16d78301a460e1cab5e8
+  depends:
+  - python
+  - ros-humble-action-msgs
+  - ros-humble-ament-index-python
+  - ros-humble-rclpy
+  - ros-humble-ros-workspace
+  - ros-humble-ros2cli
+  - ros-humble-rosidl-runtime-py
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 43418
+  timestamp: 1753313996026
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2cli-0.18.12-np126py311h2a51a2c_13.conda
+  sha256: e84783e0a0f551f84e48d42d92be724ccfc0d6cfcc28e97cc35a5bf64596046e
+  md5: 8d22b31f3ea97d03b4bbda1f79c980e3
+  depends:
+  - argcomplete
+  - importlib-metadata
+  - netifaces
+  - packaging
+  - python
+  - ros-humble-rclpy
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 74592
+  timestamp: 1753313246566
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2node-0.18.12-np126py311h2a51a2c_13.conda
+  sha256: 903be33f2ad3ac0b33ae91170bc9b247206333218459757eba2f87db6e951844
+  md5: 4f6e9f068aeed7523a203f68179d3939
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-ros2cli
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 40303
+  timestamp: 1753314107427
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ros2topic-0.18.12-np126py311h2a51a2c_13.conda
+  sha256: 8868e9af70819d88756289f526ba6eb7e986a0545c3cbc29acf14b5e0607584d
+  md5: 9075e7f3e71a0834e33d43ed13cf8c82
+  depends:
+  - numpy
+  - python
+  - pyyaml
+  - ros-humble-rclpy
+  - ros-humble-ros-workspace
+  - ros-humble-ros2cli
+  - ros-humble-rosidl-runtime-py
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 72642
+  timestamp: 1753313837440
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosgraph-msgs-1.2.1-np126py311h2a51a2c_13.conda
+  sha256: 1445dce765f8f71d82444cd7c07672867f36b9f61d8a0f750b44bcd0fdc1d6e0
+  md5: aff34054ad309603b00717feb6a29746
+  depends:
+  - python
+  - ros-humble-builtin-interfaces
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 65385
+  timestamp: 1753311304078
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-adapter-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: 0eabb703cfb36aa7140bac7c17e4f8f686eaddcaaff72a3f91675f7699e2dccb
+  md5: 761c1490aeb9a5097908188e0abfc455
+  depends:
+  - empy
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 63932
+  timestamp: 1753310213784
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-cli-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: 2ebc6c3b48715db0527b358ff93b6bc1b070e225de93449303722194c4be4cdf
+  md5: 4bb68c8f80f0c1f80485ec1e4e193c00
+  depends:
+  - argcomplete
+  - importlib-metadata
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 39017
+  timestamp: 1753308882416
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-cmake-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: 207100d52dcaa38d9d5b38edd774e8ba8816f1229fc100747e7b2f56d6a27d67
+  md5: a94ba1932abe70e088117bd8855cbf96
+  depends:
+  - empy
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-adapter
+  - ros-humble-rosidl-parser
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 40243
+  timestamp: 1753310451694
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-default-runtime-1.2.0-np126py311h2a51a2c_13.conda
+  sha256: 9d662bb75a8a5a18e927d5a98918740f9c5501ebe9645ad6a6fe8de186527cc6
+  md5: 212d556c2d59b2bc35a90a8b0d3be804
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-generator-py
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-c
+  - ros-humble-rosidl-typesupport-cpp
+  - ros-humble-rosidl-typesupport-fastrtps-c
+  - ros-humble-rosidl-typesupport-fastrtps-cpp
+  - ros-humble-rosidl-typesupport-introspection-c
+  - ros-humble-rosidl-typesupport-introspection-cpp
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 30519
+  timestamp: 1753311085827
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-generator-c-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: 8cb10ddb603d7aab86441a5ec0dd017e8f81b733a079ddedc15a960af250371b
+  md5: 9d1abd1b06582a402cfa63595f7a9bb1
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-index-python
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-parser
+  - ros-humble-rosidl-typesupport-interface
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 47140
+  timestamp: 1753310631511
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-generator-cpp-3.1.6-np126py311h2a51a2c_14.conda
+  sha256: 8c5e2cdd1c43acd95a02337fd0e4a1bf86b3d7b54a7f0cd67add89665fb13cd5
+  md5: 89c58287356b154c04018d299afba011
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-index-python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-generator-c
+  - ros-humble-rosidl-parser
+  - ros-humble-rosidl-runtime-cpp
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 50246
+  timestamp: 1758227250163
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-generator-py-0.14.4-np126py311h2a51a2c_13.conda
+  sha256: 8710a54982d9c8c9346382517656b931ad5c29dd58b41cb9d8a7eb8e2facc68e
+  md5: 14d12f7ce360c75357b9937720d12302
+  depends:
+  - numpy
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ament-index-python
+  - ros-humble-python-cmake-module
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-generator-c
+  - ros-humble-rosidl-parser
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-typesupport-c
+  - ros-humble-rosidl-typesupport-interface
+  - ros-humble-rpyutils
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 60616
+  timestamp: 1753311053081
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-parser-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: 9bdc612abe00af572a63cd9ab0c055ee311ea381cd2847e09a95eca9bac9dce4
+  md5: 5ae230eecdb490f0f871569fe95d9d4f
+  depends:
+  - lark-parser
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-adapter
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 60255
+  timestamp: 1753310323287
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-runtime-c-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: 5c7c77953a73be549c51018c4de036735252f28915887f26ef35230ff1160a61
+  md5: f6e9ac6fdd5ed49de00da4897073d735
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-typesupport-interface
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 45238
+  timestamp: 1753310539752
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-runtime-cpp-3.1.6-np126py311h2a51a2c_14.conda
+  sha256: 4a1b347b96bf479768b8b3e66ed6fe28f74b6cec6e80e5ff6127d1da8303c992
+  md5: 1fc4d21c39598e97e6f12c4bed8f611f
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-runtime-c
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 35920
+  timestamp: 1758227223081
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-runtime-py-0.9.3-np126py311h2a51a2c_13.conda
+  sha256: 9c7a5e41901119babafa95fc1443d7c555147d5918ef05b7828fe098b28b89a0
+  md5: 74036de89a14e28305b9627052acfe8e
+  depends:
+  - numpy
+  - python
+  - pyyaml
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-parser
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 45926
+  timestamp: 1753311814364
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-c-2.0.2-np126py311h2a51a2c_13.conda
+  sha256: c3329a575b7373a6972a82130560df82af9adfe49de188620744eceed69f6a94
+  md5: 4c40cdcc22db4da3f3b4560d0e3e4f89
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-index-python
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-typesupport-fastrtps-c
+  - ros-humble-rosidl-typesupport-interface
+  - ros-humble-rosidl-typesupport-introspection-c
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 48517
+  timestamp: 1753310992086
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-cpp-2.0.2-np126py311h2a51a2c_13.conda
+  sha256: 26c8e85e167ea01a714bd747f96d2ad37072068ef694f5885dae3590fd10ec71
+  md5: 22ca30e72d516c5bf3e00eb950380a99
+  depends:
+  - python
+  - ros-humble-ament-cmake-core
+  - ros-humble-ament-index-python
+  - ros-humble-rcpputils
+  - ros-humble-rcutils
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-c
+  - ros-humble-rosidl-typesupport-fastrtps-cpp
+  - ros-humble-rosidl-typesupport-interface
+  - ros-humble-rosidl-typesupport-introspection-cpp
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 47731
+  timestamp: 1753311043801
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-fastrtps-c-2.2.2-np126py311h2a51a2c_13.conda
+  sha256: 5bb76fe945b15e3fe4c9c4db584987c6f7b71d856247794bb29f39df8564a12d
+  md5: e6f92a4c8bd7df6ebe9fe640fa34f877
+  depends:
+  - python
+  - ros-humble-ament-cmake-ros
+  - ros-humble-ament-index-python
+  - ros-humble-fastcdr
+  - ros-humble-fastrtps-cmake-module
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-generator-c
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-fastrtps-cpp
+  - ros-humble-rosidl-typesupport-interface
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 48099
+  timestamp: 1753310899131
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-fastrtps-cpp-2.2.2-np126py311h2a51a2c_13.conda
+  sha256: e366e565890c41052c1943a0d7db9c72271b9980ed38e51d061ba90d129468a7
+  md5: 93702deb28de7e2a07f012e41a7fdf8f
+  depends:
+  - python
+  - ros-humble-ament-cmake-ros
+  - ros-humble-ament-index-python
+  - ros-humble-fastcdr
+  - ros-humble-fastrtps-cmake-module
+  - ros-humble-rmw
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-generator-cpp
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-interface
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 50326
+  timestamp: 1753310778806
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-interface-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: cc58de55ec9dfcf89dfa3ab3f4bac78cfbcf8bc77f9cd1020d489f94226b25c8
+  md5: 3d26def234ca338ecdb7f91584457fcd
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 28558
+  timestamp: 1753310222434
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-introspection-c-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: a89965102d83af59ca988619746d7933eb66eb2d71d67fbaeb439ee15a2186ca
+  md5: 8165197001a6cb8c618df0f41cf0de10
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ament-index-python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-parser
+  - ros-humble-rosidl-runtime-c
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 45920
+  timestamp: 1753310648784
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rosidl-typesupport-introspection-cpp-3.1.6-np126py311h2a51a2c_13.conda
+  sha256: 655d08ab740b6e828083e0c5f5c8a33a03a4f114d77165f3488a08b90d7bd3c6
+  md5: 0848cc3e8d8cf4698591465a20c31295
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ament-index-python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-cli
+  - ros-humble-rosidl-cmake
+  - ros-humble-rosidl-parser
+  - ros-humble-rosidl-runtime-c
+  - ros-humble-rosidl-runtime-cpp
+  - ros-humble-rosidl-typesupport-interface
+  - ros-humble-rosidl-typesupport-introspection-c
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 46121
+  timestamp: 1753310710733
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rpyutils-0.2.1-np126py311h2a51a2c_13.conda
+  sha256: c0f426d3bbd4d5a05de79f8c2ef88dbcafdc11d8b5bae43197e5783058c476e3
+  md5: 97980a7d0429576ee3f6405ba48a7d79
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 25826
+  timestamp: 1753308890520
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-rti-connext-dds-cmake-module-0.11.3-np126py311h2a51a2c_13.conda
+  sha256: eb0e31bf4691327c08e7e674c97aa0b3a82db16e486c02dfd6734c4ea888a6d3
+  md5: 3151b798860ee7250a094be4ed5e849c
+  depends:
+  - python
+  - ros-humble-ament-cmake
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 30970
+  timestamp: 1753310254638
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-spdlog-vendor-1.3.1-np126py311h6932ae0_13.conda
+  sha256: 19ddd342a090ead8c44876abc51b1a0b2a71a007547c047bac26b364000bced6
+  md5: ea80390dd9ce91561fedb4084d14a3b3
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - spdlog
+  - __osx >=11.0
+  - libcxx >=18
+  - spdlog >=1.15.3,<1.16.0a0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 26972
+  timestamp: 1753310096446
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-statistics-msgs-1.2.1-np126py311h2a51a2c_13.conda
+  sha256: 75e86648ee6e325322a2afa648844780b24af884bfea14a1378e22b8ffcef7e4
+  md5: 68d5ab3d6aac9877a7f7b7bfeb37ab84
+  depends:
+  - python
+  - ros-humble-builtin-interfaces
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 93263
+  timestamp: 1753311290334
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-std-msgs-4.9.0-np126py311h2a51a2c_13.conda
+  sha256: c8498cf18ffc571ce9acbc7acc12d1c3fc0ca934f884e17d140c5a2a557913c8
+  md5: 8ce14a1f457a737a6deb10ccd3d107cb
+  depends:
+  - python
+  - ros-humble-builtin-interfaces
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 245288
+  timestamp: 1753311243013
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-std-srvs-4.9.0-np126py311h2a51a2c_13.conda
+  sha256: e2a4a10ee05f04c409e8be711dc0f2012a5b124d0c4bf8473908685f435462e7
+  md5: 8f8eccf4b61bbeedd5e7aec2350488a4
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 94709
+  timestamp: 1753311204458
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-tracetools-4.1.1-np126py311h2a51a2c_13.conda
+  sha256: 441fdd2f9a03d346fc816a05b9d9d293e28c6d200e4dc7de4f4263f872a706b9
+  md5: 981283f9101e0428444a28066e91d02c
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 38084
+  timestamp: 1753310333354
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-turtlesim-1.4.2-np126py311h2a51a2c_13.conda
+  sha256: 88acaff887366ae4b2ba12dc68ee493c47ae1e146210dfe93ba2af44a4644eda
+  md5: 901f27a224a37d75d1ade5aa2ae2e90d
+  depends:
+  - python
+  - qt-main
+  - ros-humble-ament-index-cpp
+  - ros-humble-geometry-msgs
+  - ros-humble-rclcpp
+  - ros-humble-rclcpp-action
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-std-msgs
+  - ros-humble-std-srvs
+  - ros2-distro-mutex 0.7.* humble_*
+  - xorg-libx11
+  - xorg-libxext
+  - __osx >=11.0
+  - libcxx >=18
+  - xorg-libx11 >=1.8.12,<2.0a0
+  - xorg-libxext >=1.3.6,<2.0a0
+  - qt-main >=5.15.15,<5.16.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 541119
+  timestamp: 1753313455935
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-unique-identifier-msgs-2.2.1-np126py311h2a51a2c_13.conda
+  sha256: 1957c505e0e8cf2a830026b1bc163c49e98246b1c66704f9a7ae32191d41484b
+  md5: 89ea54c37d04bab0d8b6b214e72a7daa
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 67171
+  timestamp: 1753311129210
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros2-distro-mutex-0.7.0-humble_13.conda
+  sha256: 719c7f514125b8e60d760cef73440328e6f1f4ccb1be22657ca377519e0efa6a
+  md5: 6a9795b9c72889afded8b5fb550f032c
+  constrains:
+  - libboost 1.86.*
+  - libboost-devel 1.86.*
+  - pcl 1.15.0.*
+  - gazebo 11.*
+  - libprotobuf 5.29.3.*
+  license: BSD-3-Clause
+  size: 2304
+  timestamp: 1753307858174
+- conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-82.0.0-pyh332efcf_0.conda
+  sha256: fd7201e38e38bf7f25818d624ca8da97b8998957ca9ae3fb7fdc9c17e6b25fcd
+  md5: 1d00d46c634177fc8ede8b99d6089239
+  depends:
+  - python >=3.10
+  license: MIT
+  license_family: MIT
+  size: 637506
+  timestamp: 1770634745653
+- conda: https://conda.anaconda.org/conda-forge/noarch/six-1.17.0-pyhe01879c_1.conda
+  sha256: 458227f759d5e3fcec5d9b7acce54e10c9e1f4f4b7ec978f3bfd54ce4ee9853d
+  md5: 3339e3b65d58accf4ca4fb8748ab16b3
+  depends:
+  - python >=3.9
+  - python
+  license: MIT
+  license_family: MIT
+  size: 18455
+  timestamp: 1753199211006
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/spdlog-1.15.3-h217a1f9_1.conda
+  sha256: 673e4475bc9ca8e321bc98c8f6e48bf0efd530b5978d6a675de03c77b0a41227
+  md5: bd3f40ea227bed3b00b13a574a9dd9ee
+  depends:
+  - __osx >=11.0
+  - fmt >=11.2.0,<11.3.0a0
+  - libcxx >=18
+  license: MIT
+  license_family: MIT
+  size: 166201
+  timestamp: 1751348813679
+- conda: https://conda.anaconda.org/conda-forge/noarch/stack_data-0.6.3-pyhd8ed1ab_1.conda
+  sha256: 570da295d421661af487f1595045760526964f41471021056e993e73089e9c41
+  md5: b1b505328da7a6b246787df4b5a49fbc
+  depends:
+  - asttokens
+  - executing
+  - pure_eval
+  - python >=3.9
+  license: MIT
+  license_family: MIT
+  size: 26988
+  timestamp: 1733569565672
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/tinyxml2-11.0.0-ha1acc90_0.conda
+  sha256: bbd9294551ff727305f8335819c24d2490d5d79e0f3d90957992c39d2146093a
+  md5: 6778d917f88222e8f27af8ec5c41f277
+  depends:
+  - __osx >=11.0
+  - libcxx >=18
+  license: Zlib
+  size: 122269
+  timestamp: 1742246179980
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/tk-8.6.13-h010d191_3.conda
+  sha256: 799cab4b6cde62f91f750149995d149bc9db525ec12595e8a1d91b9317f038b3
+  md5: a9d86bc62f39b94c4661716624eb21b0
+  depends:
+  - __osx >=11.0
+  - libzlib >=1.3.1,<2.0a0
+  license: TCL
+  license_family: BSD
+  size: 3127137
+  timestamp: 1769460817696
+- conda: https://conda.anaconda.org/conda-forge/noarch/tomli-2.4.0-pyhcf101f3_0.conda
+  sha256: 62940c563de45790ba0f076b9f2085a842a65662268b02dd136a8e9b1eaf47a8
+  md5: 72e780e9aa2d0a3295f59b1874e3768b
+  depends:
+  - python >=3.10
+  - python
+  license: MIT
+  license_family: MIT
+  size: 21453
+  timestamp: 1768146676791
+- conda: https://conda.anaconda.org/conda-forge/noarch/traitlets-5.14.3-pyhd8ed1ab_1.conda
+  sha256: f39a5620c6e8e9e98357507262a7869de2ae8cc07da8b7f84e517c9fd6c2b959
+  md5: 019a7385be9af33791c989871317e1ed
+  depends:
+  - python >=3.9
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 110051
+  timestamp: 1733367480074
+- conda: https://conda.anaconda.org/conda-forge/noarch/typing_extensions-4.15.0-pyhcf101f3_0.conda
+  sha256: 032271135bca55aeb156cee361c81350c6f3fb203f57d024d7e5a1fc9ef18731
+  md5: 0caa1af407ecff61170c9437a808404d
+  depends:
+  - python >=3.10
+  - python
+  license: PSF-2.0
+  license_family: PSF
+  size: 51692
+  timestamp: 1756220668932
+- conda: https://conda.anaconda.org/conda-forge/noarch/tzdata-2025c-hc9c84f9_1.conda
+  sha256: 1d30098909076af33a35017eed6f2953af1c769e273a0626a04722ac4acaba3c
+  md5: ad659d0a2b3e47e38d829aa8cad2d610
+  license: LicenseRef-Public-Domain
+  size: 119135
+  timestamp: 1767016325805
+- conda: https://conda.anaconda.org/conda-forge/noarch/wcwidth-0.6.0-pyhd8ed1ab_0.conda
+  sha256: e298b508b2473c4227206800dfb14c39e4b14fd79d4636132e9e1e4244cdf4aa
+  md5: c3197f8c0d5b955c904616b716aca093
+  depends:
+  - python >=3.10
+  license: MIT
+  license_family: MIT
+  size: 71550
+  timestamp: 1770634638503
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libx11-1.8.13-hf948f5a_0.conda
+  sha256: e8889281828ee19afb2fdd7b5d7a4b7c2e013b2ae38af4529040de542f92b065
+  md5: 85b1ce864f9a18468db4c583c7778c7d
+  depends:
+  - __osx >=11.0
+  - libxcb >=1.17.0,<2.0a0
+  license: MIT
+  license_family: MIT
+  size: 756862
+  timestamp: 1770819743113
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxau-1.0.12-hc919400_1.conda
+  sha256: adae11db0f66f86156569415ed79cda75b2dbf4bea48d1577831db701438164f
+  md5: 78b548eed8227a689f93775d5d23ae09
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 14105
+  timestamp: 1762976976084
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxdmcp-1.1.5-hc919400_1.conda
+  sha256: f7fa0de519d8da589995a1fe78ef74556bb8bc4172079ae3a8d20c3c81354906
+  md5: 9d1299ace1924aa8f4e0bc8e71dd0cf7
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 19156
+  timestamp: 1762977035194
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/xorg-libxext-1.3.7-h84a0fba_0.conda
+  sha256: 18bbf20b4da142b368e1ae8c2124a3fd7148e2003480ad8b1acdcaa3e6454b07
+  md5: 72851739795cdef9bb7124114c630df9
+  depends:
+  - __osx >=11.0
+  - xorg-libx11 >=1.8.12,<2.0a0
+  license: MIT
+  license_family: MIT
+  size: 42748
+  timestamp: 1769445838425
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/yaml-0.2.5-h925e9cb_3.conda
+  sha256: b03433b13d89f5567e828ea9f1a7d5c5d697bf374c28a4168d71e9464f5dafac
+  md5: 78a0fe9e9c50d2c381e8ee47e3ea437d
+  depends:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 83386
+  timestamp: 1753484079473
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/yaml-cpp-0.8.0-ha1acc90_0.conda
+  sha256: 66ba31cfb8014fdd3456f2b3b394df123bbd05d95b75328b7c4131639e299749
+  md5: 30475b3d0406587cf90386a283bb3cd0
+  depends:
+  - libcxx >=18
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 136222
+  timestamp: 1745308075886
+- conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.23.0-pyhcf101f3_1.conda
+  sha256: b4533f7d9efc976511a73ef7d4a2473406d7f4c750884be8e8620b0ce70f4dae
+  md5: 30cd29cb87d819caead4d55184c1d115
+  depends:
+  - python >=3.10
+  - python
+  license: MIT
+  license_family: MIT
+  size: 24194
+  timestamp: 1764460141901
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-hbf9d68e_6.conda
+  sha256: 9485ba49e8f47d2b597dd399e88f4802e100851b27c21d7525625b0b4025a5d9
+  md5: ab136e4c34e97f34fb621d2592a393d8
+  depends:
+  - __osx >=11.0
+  - libzlib >=1.3.1,<2.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 433413
+  timestamp: 1764777166076
